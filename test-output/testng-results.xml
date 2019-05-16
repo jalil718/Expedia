@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24168" started-at="2019-05-14T07:28:27Z" finished-at="2019-05-14T07:28:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24168" started-at="2019-05-14T07:28:27Z" finished-at="2019-05-14T07:28:51Z">
+      <class name="tests.Flights">
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.Flights@9629756]" name="beforeTestStart" is-config="true" duration-ms="18010" started-at="2019-05-14T03:28:27Z" finished-at="2019-05-14T03:28:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="PASS" signature="flights()[pri:0, instance:tests.Flights@9629756]" name="flights" duration-ms="3722" started-at="2019-05-14T03:28:45Z" finished-at="2019-05-14T03:28:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flights -->
+        <test-method status="PASS" signature="onwy()[pri:0, instance:tests.Flights@9629756]" name="onwy" duration-ms="117" started-at="2019-05-14T03:28:49Z" finished-at="2019-05-14T03:28:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onwy -->
+        <test-method status="PASS" signature="mltCities()[pri:0, instance:tests.Flights@9629756]" name="mltCities" duration-ms="124" started-at="2019-05-14T03:28:49Z" finished-at="2019-05-14T03:28:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mltCities -->
+        <test-method status="PASS" signature="rTrip()[pri:0, instance:tests.Flights@9629756]" name="rTrip" duration-ms="77" started-at="2019-05-14T03:28:49Z" depends-on-methods="tests.Flights.flights" finished-at="2019-05-14T03:28:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rTrip -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.Flights@9629756]" name="closewindow" is-config="true" duration-ms="2101" started-at="2019-05-14T03:28:49Z" finished-at="2019-05-14T03:28:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- tests.Flights -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
