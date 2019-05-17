@@ -14,12 +14,16 @@ public class HeaderTabsTests extends Config {
 	@Test
 	public void flights(){
 		
-		driver.findElement(By.xpath(hFts.hFlights)).click();
+//		driver.findElement(By.xpath(hFts.hFlights)).click();
+		
+		 clickByXpath(hFts.hFlights);
 	}
 	
 	@Test
 	public void  hotels(){
-		driver.findElement(By.xpath(hFts.hHotels)).click();
+//		driver.findElement(By.xpath(hFts.hHotels)).click();
+		
+		clickByXpath(hFts.hHotels);
 	}
 	
 	@Test

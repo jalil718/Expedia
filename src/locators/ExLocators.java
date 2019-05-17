@@ -50,16 +50,45 @@ public class ExLocators {
 	
 	public String multipleCity = "flight-type-multi-dest-label-flp";
 	
-// Partner Services
+// Create an Account
 	
-	public  String part1 = "//*[@id='partner-services-links']/li[";
+	public String hAccount = "header-account-menu";
 	
-	public  String part2="10]/a";
-	for(int i=1;i<=10;i++){
-	String Completedpath=part1+i+part2;
-	}
+	public String creatAnAccount = "account-register";
 	
-
+	public String firstNameL = "gss-signup-first-name";
+	
+	public String lastNameL = "gss-signup-last-name";
+	
+	public String emailL = "gss-signup-email";
+	
+	public String passwordL = "gss-signup-password";
+	
+	public String cAccSubmit = "gss-signup-submit";
+	
+// Footer linktexts visibility
+	
+	public String expediaFooter= "//*[@id='expedia-header']/h5";
+	
+	public String expediaRewardsFooter= "//*[@id='rewards-header']/h5";
+	
+	public String expediaLinksFooter= "//*[@id='brand-links-header']/h5";
+	
+	public String expediaSiteMapsFooter = "//*[@id='expedia-sitemaps-header']/h5";
+	
+	public String expediaPartnerServicesFooter= "//*[@id='partner-services-header']/h5";
+	
+	public String expediaGlobalSitesFooter = "//*[@id='global-sites-header']/h5";
+	
+	public String expediaPartnersFooter = "//*[@id='expedia-partners-header']/h5";
+	
+	public String expediaEndText = "//*[@id='site-footer-wrap']/div[6]";
+	
+	
+	
+	
+	
+	
 
 	
 

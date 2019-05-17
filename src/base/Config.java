@@ -8,9 +8,9 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
-public class Config {
-	public WebDriver driver;			
-	
+import Utils.WebDriverFunctions;
+
+public class Config extends WebDriverFunctions {	
 	
 
 	@BeforeTest
