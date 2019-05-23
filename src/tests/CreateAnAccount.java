@@ -12,7 +12,7 @@ public class CreateAnAccount extends Config {
 	ExValues cExAcc = new ExValues();
 	
 	@Test(priority=1)
-	public void createAccountHeader(){
+	public void accountHeader(){
 		clickById(cAcc.hAccount);
 		}
 	

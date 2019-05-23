@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [crossbrowserTest]">
+  <parameter name="browser" value="ff"/>
+  <test name="Test in Firefox(failed)">
+    <parameter name="browser" value="ch"/>
+    <classes>
+      <class name="tests.CreateAnAccount">
+        <methods>
+          <include name="info"/>
+          <include name="accountHeader"/>
+          <include name="beforeTestStart"/>
+          <include name="beforeTestStart"/>
+          <include name="cAccSubmitButton"/>
+          <include name="creatAnAccountFromDropDown"/>
+          <include name="closewindow"/>
+        </methods>
+      </class> <!-- tests.CreateAnAccount -->
+    </classes>
+  </test> <!-- Test in Firefox(failed) -->
+  <test name="Test in Chrome(failed)">
+    <parameter name="browser" value="ff"/>
+    <classes>
+      <class name="tests.CreateAnAccount">
+        <methods>
+          <include name="info"/>
+          <include name="beforeTestStart"/>
+          <include name="beforeTestStart"/>
+          <include name="cAccSubmitButton"/>
+          <include name="closewindow"/>
+        </methods>
+      </class> <!-- tests.CreateAnAccount -->
+    </classes>
+  </test> <!-- Test in Chrome(failed) -->
+</suite> <!-- Failed suite [crossbrowserTest] -->

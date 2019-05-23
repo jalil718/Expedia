@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import base.Config;
 import locators.ExLocators;
 
-public class Flights extends Config {
+public class SubHeaderFlights extends Config {
 
 	ExLocators fL= new ExLocators();
 	

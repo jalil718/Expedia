@@ -1,6 +1,7 @@
 package tests;
 
 import org.openqa.selenium.By;
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 import base.Config;
@@ -12,48 +13,30 @@ public class HeaderTabsTests extends Config {
 	ExLocators hFts= new ExLocators();
 	
 	@Test
-	public void flights(){
+	public void headerTabsClickability(){
 		
 //		driver.findElement(By.xpath(hFts.hFlights)).click();
-		
 		 clickByXpath(hFts.hFlights);
-	}
 	
-	@Test
-	public void  hotels(){
 //		driver.findElement(By.xpath(hFts.hHotels)).click();
-		
 		clickByXpath(hFts.hHotels);
-	}
 	
-	@Test
-	public void bundleAndSave(){
 		driver.findElement(By.xpath(hFts.hBundleAndSave)).click();
-	}
 	
-	@Test
-	public void cars(){
-		driver.findElement(By.xpath(hFts.hCars)).click();
-	}
-	@Test
-	public void cruises(){
+		clickByXpath(hFts.hCars);
+//		driver.findElement(By.xpath(hFts.hCars)).click();
+	
 		driver.findElement(By.xpath(hFts.hCruises)).click();
-	}
 	
-	@Test
-	public void thingsToDo(){
 		driver.findElement(By.xpath(hFts.hVactionRental)).click();
-	}
 	
-	@Test
-	public void deals(){
 		driver.findElement(By.xpath(hFts.hDeals)).click();
 	}
 	
 	@Test
 	public void mobile(){
 		driver.findElement(By.xpath(hFts.hMobile)).click();
-	}
+		throw new SkipException ("Requirement changed");	}
 
 
 

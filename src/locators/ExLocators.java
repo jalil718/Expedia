@@ -84,6 +84,35 @@ public class ExLocators {
 	
 	public String expediaEndText = "//*[@id='site-footer-wrap']/div[6]";
 	
+// Sign In
+	
+	public String accountHeader = "header-account-menu";
+	
+	public String accountEmail = "gss-signin-email";
+	
+	public String accountPass = "gss-signin-password";
+	
+	public String signInButton = "gss-signin-submit";
+	
+	public String signInFromAccountDropdown = "account-signin";
+	
+// Page Images
+	
+	public String expediaLogo="//*[@id='header-logo']/img";
+	
+	public String scanQRCode = "//*[@id='mad-banner-wrapper']/div/div[1]/section[2]/img";
+	
+// Car Booking
+	
+	public String pickingUp = "//*[@id='car-pickup-clp']";
+	public String droppingOff = "//*[@id='car-dropoff-clp']";
+	public String pickUpDate= "car-pickup-date-clp";
+	public String dropOffDate="car-dropoff-date-clp";
+	
+	public String carSearchButton= "gcw-submit-car";
+	public String carOnlyCheckBOx="aarp-car-rates-check-clp";
+	public String carOnlyAdvancedOptions="toggle-trigger secondary gcw-show-adv-options viewed";
+	
 	
 	
 	

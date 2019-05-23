@@ -58,24 +58,24 @@ public class WebDriverFunctions {
 		driver.findElement(By.xpath(loc)).click();
 	}
 	
-	public void clickByLinkText(String val){
-		driver.findElement(By.linkText(val));
+	public void clickByLinkText(String loc){
+		driver.findElement(By.linkText(loc));
 	}
 	
-	public void clickByName(String val){
-		driver.findElement(By.name(val)).click();
+	public void clickByName(String loc){
+		driver.findElement(By.name(loc)).click();
 	}
 	
-	public void clickById(String val){
-		driver.findElement(By.id(val)).click();
+	public void clickById(String loc){
+		driver.findElement(By.id(loc)).click();
 	}
 	
-	public void clickByClass(String val){
-		driver.findElement(By.className(val)).click();
+	public void clickByClass(String loc){
+		driver.findElement(By.className(loc)).click();
 	}
 	
-	public void clickByCss(String val){
-		driver.findElement(By.cssSelector(val)).click();
+	public void clickByCss(String loc){
+		driver.findElement(By.cssSelector(loc)).click();
 	}
 	
 	

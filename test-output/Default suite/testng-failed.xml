@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.CreateAnAccount">
+      <class name="tests.AlertMessage">
         <methods>
           <include name="beforeTestStart"/>
-          <include name="createAccountHeader"/>
+          <include name="alertMessage"/>
           <include name="closewindow"/>
         </methods>
-      </class> <!-- tests.CreateAnAccount -->
+      </class> <!-- tests.AlertMessage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
