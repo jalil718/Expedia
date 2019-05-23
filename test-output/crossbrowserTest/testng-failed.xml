@@ -8,11 +8,11 @@
       <class name="tests.CreateAnAccount">
         <methods>
           <include name="info"/>
-          <include name="accountHeader"/>
           <include name="beforeTestStart"/>
           <include name="beforeTestStart"/>
           <include name="cAccSubmitButton"/>
           <include name="creatAnAccountFromDropDown"/>
+          <include name="closewindow"/>
           <include name="closewindow"/>
         </methods>
       </class> <!-- tests.CreateAnAccount -->
@@ -27,6 +27,8 @@
           <include name="beforeTestStart"/>
           <include name="beforeTestStart"/>
           <include name="cAccSubmitButton"/>
+          <include name="creatAnAccountFromDropDown"/>
+          <include name="closewindow"/>
           <include name="closewindow"/>
         </methods>
       </class> <!-- tests.CreateAnAccount -->

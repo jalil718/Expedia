@@ -44,7 +44,7 @@ public class userisAbletoReserveaCar extends Config {
 				
 		clickById(rCL.carOnlyCheckBOx);
 		
-		clickByClass(rCL.carOnlyAdvancedOptions);
+//		clickByClass(rCL.carOnlyAdvancedOptions);
 
 		clickById(rCL.carSearchButton);	
 		
