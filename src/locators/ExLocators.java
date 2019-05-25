@@ -14,9 +14,9 @@ public class ExLocators {
 	
 	public String hCruises = "//*[@id='primary-header-cruise']";
 	
-	public String hThingsToDo = "//*[@id='primary-header-activity']";
+	public String hThingsToDo = "primary-header-activity";
 	
-	public String hVactionRental = "//*[@id='primary-header-vacationRental']";
+	public String hVactionRental = "primary-header-vacationRental";
 	
 	public String hDeals = "//*[@id='primary-header-vacationRental']";
 	
@@ -102,17 +102,34 @@ public class ExLocators {
 	
 	public String scanQRCode = "//*[@id='mad-banner-wrapper']/div/div[1]/section[2]/img";
 	
-// Car Booking
+// Car Search/Booking
 	
 	public String pickingUp = "//*[@id='car-pickup-clp']";
 	public String droppingOff = "//*[@id='car-dropoff-clp']";
 	public String pickUpDate= "car-pickup-date-clp";
 	public String dropOffDate="car-dropoff-date-clp";
-	
 	public String carSearchButton= "gcw-submit-car";
 	public String carOnlyCheckBOx="aarp-car-rates-check-clp";
-	public String carOnlyAdvancedOptions="toggle-trigger secondary gcw-show-adv-options viewed";
+	public String carOnlyAdvancedOptions="//*[@id='gcw-cars-form-hp-car']/a";    
+	public String carType = "car-options-type-hp-car";
+	public String rentalCarCompany= "car-options-vendor-hp-car";
+	public String discountCode = "car-options-discount-hp-car";
 	
+// Text Message
+	public String textMessage= "mad-t2d-form-input";
+	public String textSend="//*[@id='mad-banner-wrapper']/div/div[1]/section[1]/fieldset/button";
+
+//	Things to do
+	public String thingstoDoDestination= "activity-destination-alp";
+	public String thingstoDoFromDate= "activity-start-alp";
+	public String thingstoDoToDate="activity-end-alp";
+	public String activitiySearchButton="//*[@id='gcw-activities-form-alp']/div[5]/label";
+	
+// Vacation Rentals//Read from excel
+	public String vacationRentalDestination= "VR-destination";
+	
+// Write in excel
+	public String gettheExpediaApp = "//*[@id='mad-banner-wrapper']/div/div[1]/div/h5/div";
 	
 	
 	

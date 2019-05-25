@@ -3,6 +3,7 @@ package tests;
 import org.apache.poi.util.SystemOutLogger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 import base.Config;
@@ -12,9 +13,10 @@ public class AlertMessage extends Config {
 
 	ExLocators alM = new ExLocators();
 	
-	@Test
-	public void alertMessage(){
+	@Test(enabled=false)
 	
+	public void alertMessage(){
+
 	System.out.println(driver.findElement(By.xpath(alM.AlMessage)).getText());
 	String ab= driver.findElement(By.xpath(alM.AlMessage)).getText();
 	
@@ -27,7 +29,6 @@ public class AlertMessage extends Config {
 		System.out.println("Wrong message");
 	}
 		
-	
 		
 	}
 	

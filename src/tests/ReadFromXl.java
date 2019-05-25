@@ -12,17 +12,21 @@ public class ReadFromXl extends Config {
 
 	
 	Xls_Reader xL = new Xls_Reader(System.getProperty("user.dir")+"//testCase.xlsx");
-	ExLocators eL= new ExLocators();
+	ExLocators exL= new ExLocators();
 	
 	
 	
 	@Test
 	public void testReadFromXl(){
+		
+//	driver.findElement(By.id("primary-header-vacationRental")).click();	
+	clickById(exL.hVactionRental);
+		
 	String value= xL.getCellData("expedia","TestData",2);
 	
-	System.out.println("value"+value);
+//	System.out.println("value"+value);
 	
-	driver.findElement(By.xpath("//*[@id='flight-origin-hp-flight']")).sendKeys(value);
+	driver.findElement(By.id("VR-destination")).sendKeys(value);
 	
 	
 	

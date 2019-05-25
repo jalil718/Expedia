@@ -3,31 +3,38 @@ package values;
 public class ExValues {
 
 	public String firstNameV = "Kuddus";
-	
+
 	public String lastNameV = "Ali";
-	
+
 	public String email = "seleniumtest2019@gmail.com";
-	
+
 	public String pass = "gotonaki";
-	
-	
-//  Car Booking
-	
+
+
+//	Car Booking
+
 	public String pickingUp= "New York Jfk";
-	public String droppingOff= "New York JFK";
-	public String pickUpDate="5/30/2019";
-	public String dropOffDate="6/1/2019";
+	public String droppingOff= "New York Jfk";
+	public String pickUpDate="7/20/2019";
+	public String dropOffDate="7/21/2019";
+
+//	Text Message
+	public String textMessage= "3474252754";
 	
+//	search things to do
+	public String thingstoDoLocation= "Miami";
+	public String thingstoDoFromDate= "7/20/19";
+	public String thingstoDoToDate = "7/21/19";
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
+
 }
