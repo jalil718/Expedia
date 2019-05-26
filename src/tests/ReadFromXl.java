@@ -4,9 +4,9 @@ import org.apache.poi.util.SystemOutLogger;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-import Utils.Xls_Reader;
 import base.Config;
 import locators.ExLocators;
+import utils.Xls_Reader;
 
 public class ReadFromXl extends Config {
 
@@ -21,6 +21,7 @@ public class ReadFromXl extends Config {
 		
 //	driver.findElement(By.id("primary-header-vacationRental")).click();	
 	clickById(exL.hVactionRental);
+	
 		
 	String value= xL.getCellData("expedia","TestData",2);
 	

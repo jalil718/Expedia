@@ -14,44 +14,45 @@ public class BookingaDesiredCar extends Config {
 
 	ExLocators rCL = new ExLocators();
 	ExValues  rCV	= new ExValues();
-	
+
 
 	@Test
 	public void carReservation() throws InterruptedException{
+		
 		clickByXpath(rCL.hCars);	
-		
+
 		typeByXpath(rCL.pickingUp,rCV.pickingUp);
-		
+
 		Thread.sleep(2000);
-		
+
 		typeByXpath(rCL.droppingOff,rCV.droppingOff);
-		
+
 		Thread.sleep(2000);
-		
+
 		typeById(rCL.pickUpDate,rCV.pickUpDate);
-		
+
 		WebElement pickUpTime = driver.findElement(By.id("car-pickup-time-clp"));
 		Select sel= new Select(pickUpTime);
 		sel.selectByVisibleText("1:45 pm");
 		System.out.println(sel.getFirstSelectedOption().getText());
-		
+
 		typeById(rCL.dropOffDate,rCL.dropOffDate);
-	
+
 		WebElement dropOffTime = driver.findElement(By.id("car-dropoff-time-clp"));
 		Select selDropTime= new Select(dropOffTime);
 		selDropTime.selectByVisibleText("10:45 pm");
-		System.out.println(sel.getFirstSelectedOption().getText());
-				
+		System.out.println(selDropTime.getFirstSelectedOption().getText());
+
 		clickById(rCL.carOnlyCheckBOx);
-		
-//		clickByClass(rCL.carOnlyAdvancedOptions);
+
+		//		clickByClass(rCL.carOnlyAdvancedOptions);
 
 		clickById(rCL.carSearchButton);	
-		
-		
-		
 
-		
+
+
+
+
 
 
 

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Regression">
-	<test name="Test">
+	<test name="tests">
 		<classes>
 
-			<class name="tests.CreateAnAccountWithExpedia" />
-			<class name="tests.SearchThingstoDobyDestination" />
+			<class name="tests.VerifyUserLandedontheRightPage" />
+			<class name="tests.ReadFromXl" />
+			<class name="tests.VerifyallFooterlinksDisplayedasRequirements" />
 
 
 		</classes>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression]">
+  <test name="tests(failed)">
+    <classes>
+      <class name="tests.VerifyallFooterlinksDisplayedasRequirements">
+        <methods>
+          <include name="expediaEndTextAfterLinkTexts"/>
+          <include name="expediaGlobalSitesFooterLinkTexts"/>
+          <include name="expediaLinksFooterLinktexts"/>
+          <include name="expediaRewardsFooterLinkTexts"/>
+          <include name="expediaFooterLinkTexts"/>
+          <include name="expedia"/>
+          <include name="expediaPartnerServicesFooterLinkTexts"/>
+          <include name="expediaSitemapsFooterLinkTexts"/>
+          <include name="expediaPartnersFooterLinktexts"/>
+        </methods>
+      </class> <!-- tests.VerifyallFooterlinksDisplayedasRequirements -->
+      <class name="tests.VerifyUserLandedontheRightPage">
+        <methods>
+          <include name="userLandedontherightpage"/>
+          <include name="beforeTestStart"/>
+        </methods>
+      </class> <!-- tests.VerifyUserLandedontheRightPage -->
+      <class name="tests.ReadFromXl">
+        <methods>
+          <include name="testReadFromXl"/>
+        </methods>
+      </class> <!-- tests.ReadFromXl -->
+    </classes>
+  </test> <!-- tests(failed) -->
+</suite> <!-- Failed suite [Regression] -->
