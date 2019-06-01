@@ -7,7 +7,6 @@
       <class name="tests.DynamicPathasNotePad"/>
       <class name="tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage"/>
       <class name="tests.SearchThingstoDobyDestination"/>
-      <class name="tests.VerifyallFooterlinksDisplayedasRequirements"/>
       <class name="tests.writeinXl"/>
       <class name="tests.VerifyUserUsedRightUrl"/>
       <class name="tests.AlertMessage"/>
@@ -21,6 +20,9 @@
       <class name="tests.CreateAnAccountWithExpedia"/>
       <class name="tests.ReadFromXl"/>
       <class name="tests.SubHeaderFlights"/>
+      <class name="tests.Screenshots"/>
+      
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Resgression -->

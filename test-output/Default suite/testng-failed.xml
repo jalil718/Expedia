@@ -7,7 +7,6 @@
         <methods>
           <include name="beforeTestStart"/>
           <include name="carReservation"/>
-          <include name="closewindow"/>
         </methods>
       </class> <!-- tests.BookingaDesiredCar_Major_Functionality -->
     </classes>

@@ -10,7 +10,7 @@ public class VerifyallFooterlinksDisplayedasRequirements extends Config {
 	
 	ExLocators exFoo = new ExLocators();
 	
-	@Test(priority=1)
+	@Test(groups={"smoke"})
 	public void expedia(){
 	
 	linkTextsVis(exFoo.expediaFooter);
@@ -25,7 +25,7 @@ public class VerifyallFooterlinksDisplayedasRequirements extends Config {
 		}
 	}
 	
-	@Test(priority=2)
+	@Test(groups={"sanity"})
 	public void expediaFooterLinkTexts(){
 		String part1="//*[@id='expedia-links']/li[";
 		String part2="]/a";
@@ -35,7 +35,7 @@ public class VerifyallFooterlinksDisplayedasRequirements extends Config {
 				}
 		}
 	
-	@Test(priority=3)
+	@Test(groups={"Regression"})
 	public void expediaRewardsFooterLinkTexts(){
 		
 		linkTextsVis(exFoo.expediaRewardsFooter);
@@ -49,7 +49,7 @@ public class VerifyallFooterlinksDisplayedasRequirements extends Config {
 				}
 		}
 	
-	@Test(priority=4)
+	@Test(groups={"smoke"})
 	public void expediaLinksFooterLinktexts(){
 		
 		linkTextsVis(exFoo.expediaLinksFooter);
@@ -63,7 +63,7 @@ public class VerifyallFooterlinksDisplayedasRequirements extends Config {
 				}
 		}
 	
-	@Test(priority=5)
+	@Test(groups={"sanity"})
 	public void expediaSitemapsFooterLinkTexts(){
 		
 		linkTextsVis(exFoo.expediaSiteMapsFooter);
@@ -76,7 +76,7 @@ public class VerifyallFooterlinksDisplayedasRequirements extends Config {
 				}
 		}
 	
-	@Test(priority=6)
+	@Test
 	public void expediaPartnerServicesFooterLinkTexts(){
 		
 		linkTextsVis(exFoo.expediaPartnerServicesFooter);
@@ -90,7 +90,7 @@ public class VerifyallFooterlinksDisplayedasRequirements extends Config {
 				}
 	}
 	
-	@Test(priority=7)
+	@Test
 	public void expediaGlobalSitesFooterLinkTexts(){
 		
 		linkTextsVis(exFoo.expediaGlobalSitesFooter);
@@ -104,7 +104,7 @@ public class VerifyallFooterlinksDisplayedasRequirements extends Config {
 				}
 	}
 	
-	@Test(priority=8)
+	@Test
 	public void expediaPartnersFooterLinktexts(){
 		
 		linkTextsVis(exFoo.expediaPartnersFooter);
@@ -117,7 +117,7 @@ public class VerifyallFooterlinksDisplayedasRequirements extends Config {
 				}
 	}
 	
-	@Test(priority=9)
+	@Test
 	public void expediaEndTextAfterLinkTexts(){
 		linkTextsVis(exFoo.expediaEndText);
 

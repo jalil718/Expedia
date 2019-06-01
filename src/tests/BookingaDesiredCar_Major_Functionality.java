@@ -48,7 +48,7 @@ public class BookingaDesiredCar_Major_Functionality extends Config {
 
 		WebElement dropOffTime = driver.findElement(By.id("car-dropoff-time-clp"));
 		Select selDropTime= new Select(dropOffTime);
-		selDropTime.selectByVisibleText("10:45 pm");
+		selDropTime.selectByVisibleText("10:45 am");
 		System.out.println(selDropTime.getFirstSelectedOption().getText());
 
 		WebElement	any=driver.findElement(By.xpath(rCL.checkboxCar));
@@ -133,7 +133,7 @@ public class BookingaDesiredCar_Major_Functionality extends Config {
 //		Choose and Booking
 		
 		Thread.sleep(4000);
-		clickById(rCL.reserve);
+//		clickByXpath(rCL.reserve);
 		
 	
 
