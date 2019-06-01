@@ -3,9 +3,9 @@ package tests;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-import Utils.Xls_Reader;
 import base.Config;
 import locators.ExLocators;
+import utils.Xls_Reader;
 
 public class writeinXl extends Config{
 

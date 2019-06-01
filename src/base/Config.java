@@ -9,12 +9,12 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
-import Utils.WebDriverFunctions;
+import utils.WebDriverFunctions;
 
 public class Config extends WebDriverFunctions {	
 	
 
-	@BeforeTest
+	@BeforeMethod
 	public void beforeTestStart(){
 //		System.setProperty("webdriver.chrome.driver", "C:\\Users\\mdjal\\Documents\\GitHub\\Expedia\\drivers\\chromedriver.exe");		// init the chrome driver
 		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
@@ -24,10 +24,10 @@ public class Config extends WebDriverFunctions {
 		driver.get("https://www.expedia.com/");
 		// maximize the window 
 	driver.manage().window().maximize();
-	driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
 	} 
-	@AfterTest
+	@AfterMethod
 	public void closewindow(){
 		driver.close();
 	}

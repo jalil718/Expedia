@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression]">
+  <test name="tests(failed)">
+    <classes>
+      <class name="tests.VerifyUserLandedontheRightPage">
+        <methods>
+          <include name="beforeTestStart"/>
+          <include name="closewindow"/>
+        </methods>
+      </class> <!-- tests.VerifyUserLandedontheRightPage -->
+      <class name="tests.CreateAnAccountWithExpedia">
+        <methods>
+          <include name="accountHeader"/>
+        </methods>
+      </class> <!-- tests.CreateAnAccountWithExpedia -->
+      <class name="tests.VerifyallFooterlinksDisplayedasRequirements">
+        <methods>
+          <include name="expediaEndTextAfterLinkTexts"/>
+          <include name="expediaGlobalSitesFooterLinkTexts"/>
+          <include name="expediaLinksFooterLinktexts"/>
+          <include name="expediaRewardsFooterLinkTexts"/>
+          <include name="beforeTestStart"/>
+          <include name="expediaPartnerServicesFooterLinkTexts"/>
+          <include name="expediaSitemapsFooterLinkTexts"/>
+          <include name="expediaPartnersFooterLinktexts"/>
+          <include name="closewindow"/>
+        </methods>
+      </class> <!-- tests.VerifyallFooterlinksDisplayedasRequirements -->
+      <class name="tests.ReadFromXl">
+        <methods>
+          <include name="beforeTestStart"/>
+          <include name="closewindow"/>
+        </methods>
+      </class> <!-- tests.ReadFromXl -->
+    </classes>
+  </test> <!-- tests(failed) -->
+</suite> <!-- Failed suite [Regression] -->

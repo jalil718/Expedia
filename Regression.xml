@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Regression">
-	<test name="Test">
-		<classes>
-
-			<class name="tests.CreateAnAccountWithExpedia" />
-			<class name="tests.SearchThingstoDobyDestination" />
-
-
-		</classes>
-	</test> <!-- Test -->
-</suite> <!-- Regression -->
+<suite name="Resgression">
+  <test name="Test">
+    <classes>
+      <class name="tests.VerifyHeaderTabsTakeUsertotheRightPage"/>
+      <class name="tests.DynamicPathasNotePad"/>
+      <class name="tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage"/>
+      <class name="tests.SearchThingstoDobyDestination"/>
+      <class name="tests.writeinXl"/>
+      <class name="tests.VerifyUserUsedRightUrl"/>
+      <class name="tests.AlertMessage"/>
+      <class name="tests.BookingaDesiredCar_Major_Functionality"/>
+      <class name="tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage"/>
+      <class name="tests.VerifySubHeaderTabsTakeUsertotheRightPage"/>
+      <class name="tests.VerifyUserLandedontheRightPage"/>
+      <class name="tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport"/>
+      <class name="tests.SigninwithValidCredentials"/>
+      <class name="tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp"/>
+      <class name="tests.CreateAnAccountWithExpedia"/>
+      <class name="tests.ReadFromXl"/>
+      <class name="tests.SubHeaderFlights"/>
+      <class name="tests.Screenshots"/>
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Resgression -->

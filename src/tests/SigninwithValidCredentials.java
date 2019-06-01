@@ -20,6 +20,8 @@ public class SigninwithValidCredentials extends Config {
 		
 		clickById(sI.signInFromAccountDropdown);
 		
+		Thread.sleep(3000);
+		
 		typeById(sI.accountEmail,sIA.email);
 		
 		typeById(sI.accountPass,sIA.pass);

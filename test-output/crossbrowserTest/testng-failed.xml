@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [crossbrowserTest]">
+  <parameter name="browser" value="ff"/>
+  <test name="Test in Firefox(failed)">
+    <parameter name="browser" value="ch"/>
+    <classes>
+      <class name="tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage">
+        <methods>
+          <include name="QuitWindow"/>
+          <include name="beforeTestStart"/>
+          <include name="beforeTestStart"/>
+          <include name="closeWindow"/>
+          <include name="closeWindow"/>
+        </methods>
+      </class> <!-- tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage -->
+      <class name="tests.writeinXl">
+        <methods>
+          <include name="testWriteinxl"/>
+        </methods>
+      </class> <!-- tests.writeinXl -->
+    </classes>
+  </test> <!-- Test in Firefox(failed) -->
+  <test name="Test in Chrome(failed)">
+    <parameter name="browser" value="ff"/>
+    <classes>
+      <class name="tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage">
+        <methods>
+          <include name="QuitWindow"/>
+          <include name="beforeTestStart"/>
+          <include name="beforeTestStart"/>
+          <include name="closeWindow"/>
+          <include name="closeWindow"/>
+        </methods>
+      </class> <!-- tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage -->
+      <class name="tests.writeinXl">
+        <methods>
+          <include name="testWriteinxl"/>
+        </methods>
+      </class> <!-- tests.writeinXl -->
+    </classes>
+  </test> <!-- Test in Chrome(failed) -->
+</suite> <!-- Failed suite [crossbrowserTest] -->

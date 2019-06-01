@@ -14,26 +14,16 @@ public class SubHeaderFlights extends Config {
 	public void flights(){
 		
 		driver.findElement(By.xpath(fL.hFlights)).click();
-	}
 	
-	
-	@Test(dependsOnMethods = {"flights"})
-	public void rTrip(){
 		driver.findElement(By.id(fL.roundTrip)).click();
-	}
 	
-	@Test
-	public void onwy(){
 		driver.findElement(By.id(fL.oneWay)).click();
-	}
 	
-	@Test
-	public void mltCities(){
 		driver.findElement(By.id(fL.multipleCity)).click();
+	
+
+
 	}
-
-
-
 
 
 

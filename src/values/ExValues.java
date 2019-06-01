@@ -17,6 +17,9 @@ public class ExValues {
 	public String droppingOff= "New York Jfk";
 	public String pickUpDate="7/20/2019";
 	public String dropOffDate="7/21/2019";
+	public String nameondrivinglicense="KuddusAli";
+	public String phoneNumber="3434349334";
+
 
 //	Text Message
 	public String textMessage= "3474252754";
