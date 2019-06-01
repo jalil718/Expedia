@@ -10,7 +10,7 @@ public class VerifyHomePageScrollBarMovesAlltheWayBottomofthePage extends Config
 	@Test
 	public void expediaMainPageScrollBar() throws InterruptedException{
 	JavascriptExecutor js = (JavascriptExecutor) driver;  
-	js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+	js.executeScript("window.scrollTo(25, document.body.scrollHeight)");
 
 	Thread.sleep(3000);
 	

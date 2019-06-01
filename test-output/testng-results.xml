@@ -1,191 +1,487 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="4" passed="2">
+<testng-results skipped="1" failed="2" total="25" passed="22">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="84118" started-at="2019-05-26T21:37:15Z" finished-at="2019-05-26T21:38:39Z">
+  <suite name="Resgression" duration-ms="415592" started-at="2019-06-01T00:49:09Z" finished-at="2019-06-01T00:56:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="84118" started-at="2019-05-26T21:37:15Z" finished-at="2019-05-26T21:38:39Z">
-      <class name="tests.CreateAnAccountWithExpedia">
-        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.CreateAnAccountWithExpedia@62ee68d8]" name="beforeTestStart" is-config="true" duration-ms="10048" started-at="2019-05-26T17:37:15Z" finished-at="2019-05-26T17:37:25Z">
+    <test name="Test" duration-ms="415592" started-at="2019-06-01T00:49:09Z" finished-at="2019-06-01T00:56:04Z">
+      <class name="tests.BookingaDesiredCar_Major_Functionality">
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.BookingaDesiredCar_Major_Functionality@41e36e46]" name="beforeTestStart" is-config="true" duration-ms="12204" started-at="2019-05-31T20:50:08Z" finished-at="2019-05-31T20:50:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestStart -->
-        <test-method status="PASS" signature="accountHeader()[pri:1, instance:tests.CreateAnAccountWithExpedia@62ee68d8]" name="accountHeader" duration-ms="247" started-at="2019-05-26T17:37:25Z" finished-at="2019-05-26T17:37:25Z">
+        <test-method status="FAIL" signature="carReservation()[pri:0, instance:tests.BookingaDesiredCar_Major_Functionality@41e36e46]" name="carReservation" duration-ms="61092" started-at="2019-05-31T20:50:20Z" finished-at="2019-05-31T20:51:21Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"ember1546"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'
+System info: host: 'DESKTOP-5TRQ2HB', ip: '192.168.1.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\mdjal\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64637}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 6eea5646331455037177db2f927fd852
+*** Element info: {Using=id, value=ember1546}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"ember1546"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'
+System info: host: 'DESKTOP-5TRQ2HB', ip: '192.168.1.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\mdjal\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64637}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 6eea5646331455037177db2f927fd852
+*** Element info: {Using=id, value=ember1546}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at utils.WebDriverFunctions.clickById(WebDriverFunctions.java:70)
+	at tests.BookingaDesiredCar_Major_Functionality.carReservation(BookingaDesiredCar_Major_Functionality.java:136)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carReservation -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.BookingaDesiredCar_Major_Functionality@41e36e46]" name="closewindow" is-config="true" duration-ms="238" started-at="2019-05-31T20:51:21Z" finished-at="2019-05-31T20:51:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- tests.BookingaDesiredCar_Major_Functionality -->
+      <class name="tests.SubHeaderFlights">
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.SubHeaderFlights@31c88ec8]" name="beforeTestStart" is-config="true" duration-ms="9046" started-at="2019-05-31T20:55:49Z" finished-at="2019-05-31T20:55:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="PASS" signature="flights()[pri:0, instance:tests.SubHeaderFlights@31c88ec8]" name="flights" duration-ms="4201" started-at="2019-05-31T20:55:58Z" finished-at="2019-05-31T20:56:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flights -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.SubHeaderFlights@31c88ec8]" name="closewindow" is-config="true" duration-ms="2136" started-at="2019-05-31T20:56:02Z" finished-at="2019-05-31T20:56:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- tests.SubHeaderFlights -->
+      <class name="tests.ReadFromXl">
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.ReadFromXl@3daa422a]" name="beforeTestStart" is-config="true" duration-ms="8951" started-at="2019-05-31T20:55:35Z" finished-at="2019-05-31T20:55:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="PASS" signature="testReadFromXl()[pri:0, instance:tests.ReadFromXl@3daa422a]" name="testReadFromXl" duration-ms="2617" started-at="2019-05-31T20:55:44Z" finished-at="2019-05-31T20:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadFromXl -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.ReadFromXl@3daa422a]" name="closewindow" is-config="true" duration-ms="2130" started-at="2019-05-31T20:55:47Z" finished-at="2019-05-31T20:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- tests.ReadFromXl -->
+      <class name="tests.writeinXl">
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.writeinXl@4facf68f]" name="beforeTestStart" is-config="true" duration-ms="9463" started-at="2019-05-31T20:54:12Z" finished-at="2019-05-31T20:54:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="PASS" signature="testWriteinxl()[pri:0, instance:tests.writeinXl@4facf68f]" name="testWriteinxl" duration-ms="354" started-at="2019-05-31T20:54:21Z" finished-at="2019-05-31T20:54:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWriteinxl -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.writeinXl@4facf68f]" name="closewindow" is-config="true" duration-ms="138" started-at="2019-05-31T20:54:22Z" finished-at="2019-05-31T20:54:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- tests.writeinXl -->
+      <class name="tests.VerifySubHeaderTabsTakeUsertotheRightPage">
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.VerifySubHeaderTabsTakeUsertotheRightPage@3d74bf60]" name="beforeTestStart" is-config="true" duration-ms="9554" started-at="2019-05-31T20:52:25Z" finished-at="2019-05-31T20:52:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="SKIP" signature="subHeaderTabs()[pri:0, instance:tests.VerifySubHeaderTabsTakeUsertotheRightPage@3d74bf60]" name="subHeaderTabs" duration-ms="2417" started-at="2019-05-31T20:52:35Z" finished-at="2019-05-31T20:52:37Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Requirements changed and we don't need to perform this test anymore]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Requirements changed and we don't need to perform this test anymore
+	at tests.VerifySubHeaderTabsTakeUsertotheRightPage.subHeaderTabs(VerifySubHeaderTabsTakeUsertotheRightPage.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subHeaderTabs -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.VerifySubHeaderTabsTakeUsertotheRightPage@3d74bf60]" name="closewindow" is-config="true" duration-ms="196" started-at="2019-05-31T20:52:37Z" finished-at="2019-05-31T20:52:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- tests.VerifySubHeaderTabsTakeUsertotheRightPage -->
+      <class name="tests.SearchThingstoDobyDestination">
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.SearchThingstoDobyDestination@3911c2a7]" name="beforeTestStart" is-config="true" duration-ms="13771" started-at="2019-05-31T20:51:44Z" finished-at="2019-05-31T20:51:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="PASS" signature="thingstoDo()[pri:0, instance:tests.SearchThingstoDobyDestination@3911c2a7]" name="thingstoDo" duration-ms="12662" started-at="2019-05-31T20:51:57Z" finished-at="2019-05-31T20:52:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thingstoDo -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.SearchThingstoDobyDestination@3911c2a7]" name="closewindow" is-config="true" duration-ms="2187" started-at="2019-05-31T20:52:10Z" finished-at="2019-05-31T20:52:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- tests.SearchThingstoDobyDestination -->
+      <class name="tests.VerifyUserLandedontheRightPage">
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.VerifyUserLandedontheRightPage@4f209819]" name="beforeTestStart" is-config="true" duration-ms="10233" started-at="2019-05-31T20:54:22Z" finished-at="2019-05-31T20:54:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="PASS" signature="userLandedontherightpage()[pri:0, instance:tests.VerifyUserLandedontheRightPage@4f209819]" name="userLandedontherightpage" duration-ms="42" started-at="2019-05-31T20:54:32Z" finished-at="2019-05-31T20:54:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLandedontherightpage -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.VerifyUserLandedontheRightPage@4f209819]" name="closewindow" is-config="true" duration-ms="193" started-at="2019-05-31T20:54:32Z" finished-at="2019-05-31T20:54:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- tests.VerifyUserLandedontheRightPage -->
+      <class name="tests.VerifyallFooterlinksDisplayedasRequirements">
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.VerifyallFooterlinksDisplayedasRequirements@4ac3c60d]" name="beforeTestStart" is-config="true" duration-ms="9396" started-at="2019-05-31T20:52:38Z" finished-at="2019-05-31T20:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="PASS" signature="expedia()[pri:1, instance:tests.VerifyallFooterlinksDisplayedasRequirements@4ac3c60d]" name="expedia" duration-ms="108" started-at="2019-05-31T20:52:47Z" finished-at="2019-05-31T20:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expedia -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.VerifyallFooterlinksDisplayedasRequirements@4ac3c60d]" name="closewindow" is-config="true" duration-ms="172" started-at="2019-05-31T20:52:47Z" finished-at="2019-05-31T20:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.VerifyallFooterlinksDisplayedasRequirements@4ac3c60d]" name="beforeTestStart" is-config="true" duration-ms="9847" started-at="2019-05-31T20:52:47Z" finished-at="2019-05-31T20:52:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="PASS" signature="expediaFooterLinkTexts()[pri:2, instance:tests.VerifyallFooterlinksDisplayedasRequirements@4ac3c60d]" name="expediaFooterLinkTexts" duration-ms="507" started-at="2019-05-31T20:52:57Z" finished-at="2019-05-31T20:52:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expediaFooterLinkTexts -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.VerifyallFooterlinksDisplayedasRequirements@4ac3c60d]" name="closewindow" is-config="true" duration-ms="2148" started-at="2019-05-31T20:52:58Z" finished-at="2019-05-31T20:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.VerifyallFooterlinksDisplayedasRequirements@4ac3c60d]" name="beforeTestStart" is-config="true" duration-ms="9231" started-at="2019-05-31T20:53:00Z" finished-at="2019-05-31T20:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="PASS" signature="expediaRewardsFooterLinkTexts()[pri:3, instance:tests.VerifyallFooterlinksDisplayedasRequirements@4ac3c60d]" name="expediaRewardsFooterLinkTexts" duration-ms="323" started-at="2019-05-31T20:53:09Z" finished-at="2019-05-31T20:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expediaRewardsFooterLinkTexts -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.VerifyallFooterlinksDisplayedasRequirements@4ac3c60d]" name="closewindow" is-config="true" duration-ms="203" started-at="2019-05-31T20:53:09Z" finished-at="2019-05-31T20:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.VerifyallFooterlinksDisplayedasRequirements@4ac3c60d]" name="beforeTestStart" is-config="true" duration-ms="9656" started-at="2019-05-31T20:53:09Z" finished-at="2019-05-31T20:53:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="PASS" signature="expediaLinksFooterLinktexts()[pri:4, instance:tests.VerifyallFooterlinksDisplayedasRequirements@4ac3c60d]" name="expediaLinksFooterLinktexts" duration-ms="360" started-at="2019-05-31T20:53:19Z" finished-at="2019-05-31T20:53:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expediaLinksFooterLinktexts -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.VerifyallFooterlinksDisplayedasRequirements@4ac3c60d]" name="closewindow" is-config="true" duration-ms="182" started-at="2019-05-31T20:53:19Z" finished-at="2019-05-31T20:53:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.VerifyallFooterlinksDisplayedasRequirements@4ac3c60d]" name="beforeTestStart" is-config="true" duration-ms="9304" started-at="2019-05-31T20:53:20Z" finished-at="2019-05-31T20:53:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="PASS" signature="expediaSitemapsFooterLinkTexts()[pri:5, instance:tests.VerifyallFooterlinksDisplayedasRequirements@4ac3c60d]" name="expediaSitemapsFooterLinkTexts" duration-ms="420" started-at="2019-05-31T20:53:29Z" finished-at="2019-05-31T20:53:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expediaSitemapsFooterLinkTexts -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.VerifyallFooterlinksDisplayedasRequirements@4ac3c60d]" name="closewindow" is-config="true" duration-ms="193" started-at="2019-05-31T20:53:29Z" finished-at="2019-05-31T20:53:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.VerifyallFooterlinksDisplayedasRequirements@4ac3c60d]" name="beforeTestStart" is-config="true" duration-ms="9169" started-at="2019-05-31T20:53:30Z" finished-at="2019-05-31T20:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="PASS" signature="expediaPartnerServicesFooterLinkTexts()[pri:6, instance:tests.VerifyallFooterlinksDisplayedasRequirements@4ac3c60d]" name="expediaPartnerServicesFooterLinkTexts" duration-ms="599" started-at="2019-05-31T20:53:39Z" finished-at="2019-05-31T20:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expediaPartnerServicesFooterLinkTexts -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.VerifyallFooterlinksDisplayedasRequirements@4ac3c60d]" name="closewindow" is-config="true" duration-ms="192" started-at="2019-05-31T20:53:39Z" finished-at="2019-05-31T20:53:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.VerifyallFooterlinksDisplayedasRequirements@4ac3c60d]" name="beforeTestStart" is-config="true" duration-ms="9098" started-at="2019-05-31T20:53:40Z" finished-at="2019-05-31T20:53:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="PASS" signature="expediaGlobalSitesFooterLinkTexts()[pri:7, instance:tests.VerifyallFooterlinksDisplayedasRequirements@4ac3c60d]" name="expediaGlobalSitesFooterLinkTexts" duration-ms="1881" started-at="2019-05-31T20:53:49Z" finished-at="2019-05-31T20:53:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expediaGlobalSitesFooterLinkTexts -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.VerifyallFooterlinksDisplayedasRequirements@4ac3c60d]" name="closewindow" is-config="true" duration-ms="183" started-at="2019-05-31T20:53:51Z" finished-at="2019-05-31T20:53:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.VerifyallFooterlinksDisplayedasRequirements@4ac3c60d]" name="beforeTestStart" is-config="true" duration-ms="9979" started-at="2019-05-31T20:53:51Z" finished-at="2019-05-31T20:54:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="PASS" signature="expediaPartnersFooterLinktexts()[pri:8, instance:tests.VerifyallFooterlinksDisplayedasRequirements@4ac3c60d]" name="expediaPartnersFooterLinktexts" duration-ms="1006" started-at="2019-05-31T20:54:01Z" finished-at="2019-05-31T20:54:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expediaPartnersFooterLinktexts -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.VerifyallFooterlinksDisplayedasRequirements@4ac3c60d]" name="closewindow" is-config="true" duration-ms="218" started-at="2019-05-31T20:54:02Z" finished-at="2019-05-31T20:54:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.VerifyallFooterlinksDisplayedasRequirements@4ac3c60d]" name="beforeTestStart" is-config="true" duration-ms="9659" started-at="2019-05-31T20:54:02Z" finished-at="2019-05-31T20:54:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="PASS" signature="expediaEndTextAfterLinkTexts()[pri:9, instance:tests.VerifyallFooterlinksDisplayedasRequirements@4ac3c60d]" name="expediaEndTextAfterLinkTexts" duration-ms="118" started-at="2019-05-31T20:54:12Z" finished-at="2019-05-31T20:54:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expediaEndTextAfterLinkTexts -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.VerifyallFooterlinksDisplayedasRequirements@4ac3c60d]" name="closewindow" is-config="true" duration-ms="166" started-at="2019-05-31T20:54:12Z" finished-at="2019-05-31T20:54:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- tests.VerifyallFooterlinksDisplayedasRequirements -->
+      <class name="tests.SigninwithValidCredentials">
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.SigninwithValidCredentials@2145b572]" name="beforeTestStart" is-config="true" duration-ms="11002" started-at="2019-05-31T20:54:52Z" finished-at="2019-05-31T20:55:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="PASS" signature="signInAccount()[pri:0, instance:tests.SigninwithValidCredentials@2145b572]" name="signInAccount" duration-ms="7438" started-at="2019-05-31T20:55:03Z" finished-at="2019-05-31T20:55:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInAccount -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.SigninwithValidCredentials@2145b572]" name="closewindow" is-config="true" duration-ms="190" started-at="2019-05-31T20:55:11Z" finished-at="2019-05-31T20:55:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- tests.SigninwithValidCredentials -->
+      <class name="tests.CreateAnAccountWithExpedia">
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.CreateAnAccountWithExpedia@72f926e6]" name="beforeTestStart" is-config="true" duration-ms="9152" started-at="2019-05-31T20:55:22Z" finished-at="2019-05-31T20:55:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="PASS" signature="accountHeader()[pri:0, instance:tests.CreateAnAccountWithExpedia@72f926e6]" name="accountHeader" duration-ms="3797" started-at="2019-05-31T20:55:31Z" finished-at="2019-05-31T20:55:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountHeader -->
-        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.CreateAnAccountWithExpedia@62ee68d8]" name="closewindow" is-config="true" duration-ms="165" started-at="2019-05-26T17:37:25Z" finished-at="2019-05-26T17:37:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closewindow -->
-        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.CreateAnAccountWithExpedia@62ee68d8]" name="beforeTestStart" is-config="true" duration-ms="9735" started-at="2019-05-26T17:37:25Z" finished-at="2019-05-26T17:37:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTestStart -->
-        <test-method status="PASS" signature="creatAnAccountFromDropDown()[pri:2, instance:tests.CreateAnAccountWithExpedia@62ee68d8]" name="creatAnAccountFromDropDown" duration-ms="5447" started-at="2019-05-26T17:37:35Z" finished-at="2019-05-26T17:37:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- creatAnAccountFromDropDown -->
-        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.CreateAnAccountWithExpedia@62ee68d8]" name="closewindow" is-config="true" duration-ms="203" started-at="2019-05-26T17:37:40Z" finished-at="2019-05-26T17:37:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closewindow -->
-        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.CreateAnAccountWithExpedia@62ee68d8]" name="beforeTestStart" is-config="true" duration-ms="7196" started-at="2019-05-26T17:37:40Z" finished-at="2019-05-26T17:37:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTestStart -->
-        <test-method status="FAIL" signature="info()[pri:3, instance:tests.CreateAnAccountWithExpedia@62ee68d8]" name="info" duration-ms="20207" started-at="2019-05-26T17:37:48Z" finished-at="2019-05-26T17:38:08Z">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=74.0.3729.169)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'
-System info: host: 'DESKTOP-5TRQ2HB', ip: '192.168.1.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\mdjal\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57934}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
-Session ID: ef84b1a2c3734ed25b201a8a02bc8af7]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=74.0.3729.169)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'
-System info: host: 'DESKTOP-5TRQ2HB', ip: '192.168.1.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\mdjal\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57934}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
-Session ID: ef84b1a2c3734ed25b201a8a02bc8af7
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
-	at utils.WebDriverFunctions.typeById(WebDriverFunctions.java:41)
-	at tests.CreateAnAccountWithExpedia.info(CreateAnAccountWithExpedia.java:27)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- info -->
-        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.CreateAnAccountWithExpedia@62ee68d8]" name="closewindow" is-config="true" duration-ms="2192" started-at="2019-05-26T17:38:08Z" finished-at="2019-05-26T17:38:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closewindow -->
-        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.CreateAnAccountWithExpedia@62ee68d8]" name="beforeTestStart" is-config="true" duration-ms="8301" started-at="2019-05-26T17:38:10Z" finished-at="2019-05-26T17:38:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTestStart -->
-        <test-method status="FAIL" signature="cAccSubmitButton()[pri:4, instance:tests.CreateAnAccountWithExpedia@62ee68d8]" name="cAccSubmitButton" duration-ms="20140" started-at="2019-05-26T17:38:18Z" finished-at="2019-05-26T17:38:38Z">
-          <exception class="org.openqa.selenium.ElementNotVisibleException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=74.0.3729.169)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'
-System info: host: 'DESKTOP-5TRQ2HB', ip: '192.168.1.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\mdjal\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58062}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
-Session ID: d74602d4b0f6a45ce8adc9a1cae0f28b]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not interactable
-  (Session info: chrome=74.0.3729.169)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'
-System info: host: 'DESKTOP-5TRQ2HB', ip: '192.168.1.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\mdjal\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58062}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
-Session ID: d74602d4b0f6a45ce8adc9a1cae0f28b
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at utils.WebDriverFunctions.clickById(WebDriverFunctions.java:70)
-	at tests.CreateAnAccountWithExpedia.cAccSubmitButton(CreateAnAccountWithExpedia.java:38)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cAccSubmitButton -->
-        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.CreateAnAccountWithExpedia@62ee68d8]" name="closewindow" is-config="true" duration-ms="207" started-at="2019-05-26T17:38:38Z" finished-at="2019-05-26T17:38:39Z">
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.CreateAnAccountWithExpedia@72f926e6]" name="closewindow" is-config="true" duration-ms="156" started-at="2019-05-31T20:55:35Z" finished-at="2019-05-31T20:55:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closewindow -->
       </class> <!-- tests.CreateAnAccountWithExpedia -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="tests.VerifyUserUsedRightUrl">
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.VerifyUserUsedRightUrl@76508ed1]" name="beforeTestStart" is-config="true" duration-ms="10022" started-at="2019-05-31T20:54:32Z" finished-at="2019-05-31T20:54:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="PASS" signature="usingrighturl()[pri:0, instance:tests.VerifyUserUsedRightUrl@76508ed1]" name="usingrighturl" duration-ms="39" started-at="2019-05-31T20:54:42Z" finished-at="2019-05-31T20:54:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usingrighturl -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.VerifyUserUsedRightUrl@76508ed1]" name="closewindow" is-config="true" duration-ms="188" started-at="2019-05-31T20:54:42Z" finished-at="2019-05-31T20:54:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- tests.VerifyUserUsedRightUrl -->
+      <class name="tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage">
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@1725dc0f]" name="beforeTestStart" is-config="true" duration-ms="11093" started-at="2019-05-31T20:51:21Z" finished-at="2019-05-31T20:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="PASS" signature="expediaLogo()[pri:1, instance:tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@1725dc0f]" name="expediaLogo" duration-ms="91" started-at="2019-05-31T20:51:32Z" finished-at="2019-05-31T20:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expediaLogo -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@1725dc0f]" name="closewindow" is-config="true" duration-ms="237" started-at="2019-05-31T20:51:32Z" finished-at="2019-05-31T20:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@1725dc0f]" name="beforeTestStart" is-config="true" duration-ms="10743" started-at="2019-05-31T20:51:33Z" finished-at="2019-05-31T20:51:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="PASS" signature="scanQRCode()[pri:2, instance:tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@1725dc0f]" name="scanQRCode" duration-ms="98" started-at="2019-05-31T20:51:43Z" finished-at="2019-05-31T20:51:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scanQRCode -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@1725dc0f]" name="closewindow" is-config="true" duration-ms="284" started-at="2019-05-31T20:51:43Z" finished-at="2019-05-31T20:51:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage -->
+      <class name="tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp">
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp@39529185]" name="beforeTestStart" is-config="true" duration-ms="9262" started-at="2019-05-31T20:55:11Z" finished-at="2019-05-31T20:55:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="PASS" signature="textMessageReceive()[pri:0, instance:tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp@39529185]" name="textMessageReceive" duration-ms="1881" started-at="2019-05-31T20:55:20Z" finished-at="2019-05-31T20:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textMessageReceive -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp@39529185]" name="closewindow" is-config="true" duration-ms="148" started-at="2019-05-31T20:55:22Z" finished-at="2019-05-31T20:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp -->
+      <class name="tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport">
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport@15eb5ee5]" name="beforeTestStart" is-config="true" duration-ms="9252" started-at="2019-05-31T20:54:43Z" finished-at="2019-05-31T20:54:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="FAIL" signature="trycathch()[pri:0, instance:tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport@15eb5ee5]" name="trycathch" duration-ms="116" started-at="2019-05-31T20:54:52Z" finished-at="2019-05-31T20:54:52Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Up to 30% hotel discounts] but found [Up to 30% hotel discounts for app users]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Up to 30% hotel discounts] but found [Up to 30% hotel discounts for app users]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport.trycathch(PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trycathch -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport@15eb5ee5]" name="closewindow" is-config="true" duration-ms="203" started-at="2019-05-31T20:54:52Z" finished-at="2019-05-31T20:54:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport -->
+      <class name="tests.VerifyHeaderTabsTakeUsertotheRightPage">
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.VerifyHeaderTabsTakeUsertotheRightPage@31368b99]" name="beforeTestStart" is-config="true" duration-ms="12907" started-at="2019-05-31T20:49:09Z" finished-at="2019-05-31T20:49:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="PASS" signature="headerTabsClickability()[pri:0, instance:tests.VerifyHeaderTabsTakeUsertotheRightPage@31368b99]" name="headerTabsClickability" duration-ms="45803" started-at="2019-05-31T20:49:22Z" finished-at="2019-05-31T20:50:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerTabsClickability -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.VerifyHeaderTabsTakeUsertotheRightPage@31368b99]" name="closewindow" is-config="true" duration-ms="188" started-at="2019-05-31T20:50:07Z" finished-at="2019-05-31T20:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- tests.VerifyHeaderTabsTakeUsertotheRightPage -->
+      <class name="tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage">
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage@15c43bd9]" name="beforeTestStart" is-config="true" duration-ms="9782" started-at="2019-05-31T20:52:12Z" finished-at="2019-05-31T20:52:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="PASS" signature="expediaMainPageScrollBar()[pri:0, instance:tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage@15c43bd9]" name="expediaMainPageScrollBar" duration-ms="3066" started-at="2019-05-31T20:52:22Z" finished-at="2019-05-31T20:52:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expediaMainPageScrollBar -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage@15c43bd9]" name="closewindow" is-config="true" duration-ms="233" started-at="2019-05-31T20:52:25Z" finished-at="2019-05-31T20:52:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Resgression -->
 </testng-results>

@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.CreateAnAccountWithExpedia">
+      <class name="tests.BookingaDesiredCar_Major_Functionality">
         <methods>
           <include name="beforeTestStart"/>
-          <include name="info"/>
+          <include name="carReservation"/>
           <include name="closewindow"/>
-          <include name="cAccSubmitButton"/>
         </methods>
-      </class> <!-- tests.CreateAnAccountWithExpedia -->
+      </class> <!-- tests.BookingaDesiredCar_Major_Functionality -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

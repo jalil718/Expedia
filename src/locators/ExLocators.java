@@ -18,9 +18,9 @@ public class ExLocators {
 	
 	public String hVactionRental = "primary-header-vacationRental";
 	
-	public String hDeals = "//*[@id='primary-header-vacationRental']";
+	public String hDeals = "primary-header-deals";
 	
-	public String hMobile = "//*[@id='primary-header-mobile']";
+	public String hMobile = "primary-header-mobile";
 	
 // All Subheader locators
 	
@@ -110,10 +110,23 @@ public class ExLocators {
 	public String dropOffDate="car-dropoff-date-clp";
 	public String carSearchButton= "gcw-submit-car";
 	public String carOnlyCheckBOx="aarp-car-rates-check-clp";
-	public String carOnlyAdvancedOptions="//*[@id='gcw-cars-form-hp-car']/a";    
-	public String carType = "car-options-type-hp-car";
-	public String rentalCarCompany= "car-options-vendor-hp-car";
-	public String discountCode = "car-options-discount-hp-car";
+	public String carOnlyTab = "//*[@id='tab-car-tab-clp']/span[1]/span";
+	public String checkboxCar= "//*[@id='aarp-car-rates-check-label']";
+	public String carOnlyAdvancedOptions="//*[@id='gcw-cars-form-clp']/a";
+	public String carType = "kind";
+	public String rentalCarCompany= "vend";
+	public String discountCode = "car-options-discount-clp";
+	
+	public String reserve= "ember1546";
+	public String reserve2ndstep="//*[@id='ember1248']";
+	public String nameondrivinglicense="//*[@id='preferences']/section/article/fieldset/div[2]/div[2]/label/input";
+	public String phoneNumber="//*[@id='preferences']/section/article/fieldset/div[2]/label[2]/input";
+	public String insuranceProtectionRadioButton= "//*[@id='carNo']/div/label";
+	public String finalReserveButtonforCarBooking= "//*[@id='complete-booking']";
+	
+	
+	
+		
 	
 // Text Message
 	public String textMessage= "mad-t2d-form-input";
@@ -130,6 +143,16 @@ public class ExLocators {
 	
 // Write in excel
 	public String gettheExpediaApp = "//*[@id='mad-banner-wrapper']/div/div[1]/div/h5/div";
+	
+// Assert Practive
+	public String hotelDiscount= "//*[@id='mad-banner-wrapper']/div/section/ul/li[1]/span[2]";
+	
+// 
+	
+
+	
+	
+	
 	
 	
 	
