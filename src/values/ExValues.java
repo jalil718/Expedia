@@ -24,10 +24,15 @@ public class ExValues {
 //	Text Message
 	public String textMessage= "3474252754";
 	
-//	search things to do
+//	Search things to do
 	public String thingstoDoLocation= "Miami";
 	public String thingstoDoFromDate= "7/20/19";
 	public String thingstoDoToDate = "7/21/19";
+
+//	Search Vacation Rental
+	public String vRFromDate= "8/1/2019";
+	public String vRToDate= "8/4/2019";
+	public String vRDestinationDC= "Boston";
 	
 
 

@@ -147,10 +147,15 @@ public class ExLocators {
 // Assert Practive
 	public String hotelDiscount= "//*[@id='mad-banner-wrapper']/div/section/ul/li[1]/span[2]";
 	
-// 
+// Search Vacation Rental
+	public String vRFromDate= "VR-fromDate";
+	public String vRToDate= "VR-toDate";
+	public String vRGuest= "VR-NumAdult";
+	public String vRSearhButton= "VR-searchButtonExt1";
 	
 
-	
+// Expedia Warning text
+	public String footerWarningtext= "//*[@id='site-footer-wrap']/div[6]";
 	
 	
 	

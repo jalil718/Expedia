@@ -3,36 +3,98 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Regression]">
   <test name="tests(failed)">
     <classes>
+      <class name="tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage">
+        <methods>
+          <include name="beforeTestStart"/>
+          <include name="closewindow"/>
+        </methods>
+      </class> <!-- tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage -->
+      <class name="tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage">
+        <methods>
+          <include name="beforeTestStart"/>
+          <include name="closewindow"/>
+        </methods>
+      </class> <!-- tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage -->
+      <class name="tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp">
+        <methods>
+          <include name="beforeTestStart"/>
+          <include name="closewindow"/>
+        </methods>
+      </class> <!-- tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp -->
+      <class name="tests.VerifyHeaderTabsTakeUsertotheRightPage">
+        <methods>
+          <include name="beforeTestStart"/>
+          <include name="closewindow"/>
+        </methods>
+      </class> <!-- tests.VerifyHeaderTabsTakeUsertotheRightPage -->
       <class name="tests.VerifyUserLandedontheRightPage">
         <methods>
           <include name="beforeTestStart"/>
           <include name="closewindow"/>
         </methods>
       </class> <!-- tests.VerifyUserLandedontheRightPage -->
-      <class name="tests.CreateAnAccountWithExpedia">
-        <methods>
-          <include name="accountHeader"/>
-        </methods>
-      </class> <!-- tests.CreateAnAccountWithExpedia -->
-      <class name="tests.VerifyallFooterlinksDisplayedasRequirements">
-        <methods>
-          <include name="expediaEndTextAfterLinkTexts"/>
-          <include name="expediaGlobalSitesFooterLinkTexts"/>
-          <include name="expediaLinksFooterLinktexts"/>
-          <include name="expediaRewardsFooterLinkTexts"/>
-          <include name="beforeTestStart"/>
-          <include name="expediaPartnerServicesFooterLinkTexts"/>
-          <include name="expediaSitemapsFooterLinkTexts"/>
-          <include name="expediaPartnersFooterLinktexts"/>
-          <include name="closewindow"/>
-        </methods>
-      </class> <!-- tests.VerifyallFooterlinksDisplayedasRequirements -->
       <class name="tests.ReadFromXl">
         <methods>
           <include name="beforeTestStart"/>
           <include name="closewindow"/>
         </methods>
       </class> <!-- tests.ReadFromXl -->
+      <class name="tests.BookingaDesiredCar_Major_Functionality">
+        <methods>
+          <include name="beforeTestStart"/>
+          <include name="closewindow"/>
+        </methods>
+      </class> <!-- tests.BookingaDesiredCar_Major_Functionality -->
+      <class name="tests.writeinXl">
+        <methods>
+          <include name="beforeTestStart"/>
+          <include name="closewindow"/>
+        </methods>
+      </class> <!-- tests.writeinXl -->
+      <class name="tests.SigninwithValidCredentials">
+        <methods>
+          <include name="beforeTestStart"/>
+          <include name="closewindow"/>
+        </methods>
+      </class> <!-- tests.SigninwithValidCredentials -->
+      <class name="tests.VerifySubHeaderTabsTakeUsertotheRightPage">
+        <methods>
+          <include name="beforeTestStart"/>
+          <include name="subHeaderTabs"/>
+          <include name="closewindow"/>
+        </methods>
+      </class> <!-- tests.VerifySubHeaderTabsTakeUsertotheRightPage -->
+      <class name="tests.SubHeaderFlights">
+        <methods>
+          <include name="beforeTestStart"/>
+          <include name="closewindow"/>
+        </methods>
+      </class> <!-- tests.SubHeaderFlights -->
+      <class name="tests.CreateAnAccountWithExpedia">
+        <methods>
+          <include name="beforeTestStart"/>
+          <include name="closewindow"/>
+        </methods>
+      </class> <!-- tests.CreateAnAccountWithExpedia -->
+      <class name="tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport">
+        <methods>
+          <include name="beforeTestStart"/>
+          <include name="trycathch"/>
+          <include name="closewindow"/>
+        </methods>
+      </class> <!-- tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport -->
+      <class name="tests.SearchThingstoDobyDestination">
+        <methods>
+          <include name="beforeTestStart"/>
+          <include name="closewindow"/>
+        </methods>
+      </class> <!-- tests.SearchThingstoDobyDestination -->
+      <class name="tests.VerifyUserUsedRightUrl">
+        <methods>
+          <include name="beforeTestStart"/>
+          <include name="closewindow"/>
+        </methods>
+      </class> <!-- tests.VerifyUserUsedRightUrl -->
     </classes>
   </test> <!-- tests(failed) -->
 </suite> <!-- Failed suite [Regression] -->

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Resgression">
-  <test name="Test">
+<suite name="Regression">
+  <test name="tests">
     <classes>
       <class name="tests.VerifyHeaderTabsTakeUsertotheRightPage"/>
       <class name="tests.DynamicPathasNotePad"/>
@@ -20,9 +20,8 @@
       <class name="tests.CreateAnAccountWithExpedia"/>
       <class name="tests.ReadFromXl"/>
       <class name="tests.SubHeaderFlights"/>
-      <class name="tests.Screenshots"/>
       
       
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Resgression -->
+  </test> <!-- tests -->
+</suite> <!-- Regression -->

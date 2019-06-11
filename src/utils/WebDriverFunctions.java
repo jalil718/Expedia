@@ -20,7 +20,7 @@ public class WebDriverFunctions {
 	// click
 	 // by link
 	 // tagname
-	 // by xpatch
+	 // by xpath
 	
 	// getText
 	// radioButton

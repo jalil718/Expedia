@@ -12,7 +12,7 @@ public class ConfirmUserReceivedLinktexttoDownloadExpediaApp extends Config {
 	ExLocators tm= new ExLocators();
 	ExValues tv=new ExValues();
 	
-	@Test
+	@Test 
 	public void textMessageReceive(){
 		typeById(tm.textMessage,tv.textMessage);
 		clickByXpath(tm.textSend);

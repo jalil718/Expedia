@@ -17,7 +17,10 @@ public class writeinXl extends Config{
 	public void testWriteinxl(){
 
 		String value=driver.findElement(By.xpath(exL.gettheExpediaApp)).getText();
-		xl.setCellData("expedia","TestData",5,value);
+		xl.setCellData("expedia","TestData",7,value);
+		
+		String value1=driver.findElement(By.xpath(exL.footerWarningtext)).getText();
+		xl.setCellData("expedia","TestData",9,value1);
 
 	}
 

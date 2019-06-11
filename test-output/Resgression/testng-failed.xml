@@ -3,24 +3,39 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Resgression]">
   <test name="Test(failed)">
     <classes>
-      <class name="tests.SubHeaderFlights">
+      <class name="tests.CreateAnAccountWithExpedia">
+        <methods>
+          <include name="accountHeader"/>
+        </methods>
+      </class> <!-- tests.CreateAnAccountWithExpedia -->
+      <class name="tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport">
+        <methods>
+          <include name="beforeTestStart"/>
+          <include name="trycathch"/>
+          <include name="closewindow"/>
+        </methods>
+      </class> <!-- tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport -->
+      <class name="tests.Screenshots">
+        <methods>
+          <include name="pictureCapture"/>
+        </methods>
+      </class> <!-- tests.Screenshots -->
+      <class name="tests.BookingaDesiredCar_Major_Functionality">
         <methods>
           <include name="beforeTestStart"/>
           <include name="closewindow"/>
         </methods>
-      </class> <!-- tests.SubHeaderFlights -->
-      <class name="tests.SigninwithValidCredentials">
+      </class> <!-- tests.BookingaDesiredCar_Major_Functionality -->
+      <class name="tests.SearchThingstoDobyDestination">
         <methods>
-          <include name="beforeTestStart"/>
-          <include name="closewindow"/>
+          <include name="thingstoDo"/>
         </methods>
-      </class> <!-- tests.SigninwithValidCredentials -->
-      <class name="tests.ReadFromXl">
+      </class> <!-- tests.SearchThingstoDobyDestination -->
+      <class name="tests.writeinXl">
         <methods>
-          <include name="beforeTestStart"/>
-          <include name="closewindow"/>
+          <include name="testWriteinxl"/>
         </methods>
-      </class> <!-- tests.ReadFromXl -->
+      </class> <!-- tests.writeinXl -->
       <class name="tests.VerifyUserLandedontheRightPage">
         <methods>
           <include name="beforeTestStart"/>
@@ -29,16 +44,33 @@
       </class> <!-- tests.VerifyUserLandedontheRightPage -->
       <class name="tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp">
         <methods>
+          <include name="textMessageReceive"/>
           <include name="beforeTestStart"/>
           <include name="closewindow"/>
         </methods>
       </class> <!-- tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp -->
-      <class name="tests.writeinXl">
+      <class name="tests.SigninwithValidCredentials">
         <methods>
           <include name="beforeTestStart"/>
           <include name="closewindow"/>
         </methods>
-      </class> <!-- tests.writeinXl -->
+      </class> <!-- tests.SigninwithValidCredentials -->
+      <class name="tests.ReadFromXl">
+        <methods>
+          <include name="testReadFromXl"/>
+        </methods>
+      </class> <!-- tests.ReadFromXl -->
+      <class name="tests.SubHeaderFlights">
+        <methods>
+          <include name="flights"/>
+        </methods>
+      </class> <!-- tests.SubHeaderFlights -->
+      <class name="tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage">
+        <methods>
+          <include name="expediaLogo"/>
+          <include name="scanQRCode"/>
+        </methods>
+      </class> <!-- tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage -->
       <class name="tests.VerifySubHeaderTabsTakeUsertotheRightPage">
         <methods>
           <include name="beforeTestStart"/>
@@ -46,61 +78,23 @@
           <include name="closewindow"/>
         </methods>
       </class> <!-- tests.VerifySubHeaderTabsTakeUsertotheRightPage -->
-      <class name="tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage">
-        <methods>
-          <include name="beforeTestStart"/>
-          <include name="closewindow"/>
-        </methods>
-      </class> <!-- tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage -->
-      <class name="tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage">
-        <methods>
-          <include name="beforeTestStart"/>
-          <include name="closewindow"/>
-        </methods>
-      </class> <!-- tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage -->
-      <class name="tests.CreateAnAccountWithExpedia">
-        <methods>
-          <include name="beforeTestStart"/>
-          <include name="closewindow"/>
-        </methods>
-      </class> <!-- tests.CreateAnAccountWithExpedia -->
-      <class name="tests.SearchThingstoDobyDestination">
-        <methods>
-          <include name="beforeTestStart"/>
-          <include name="closewindow"/>
-        </methods>
-      </class> <!-- tests.SearchThingstoDobyDestination -->
       <class name="tests.VerifyHeaderTabsTakeUsertotheRightPage">
         <methods>
           <include name="beforeTestStart"/>
           <include name="closewindow"/>
         </methods>
       </class> <!-- tests.VerifyHeaderTabsTakeUsertotheRightPage -->
-      <class name="tests.BookingaDesiredCar_Major_Functionality">
-        <methods>
-          <include name="beforeTestStart"/>
-          <include name="closewindow"/>
-        </methods>
-      </class> <!-- tests.BookingaDesiredCar_Major_Functionality -->
-      <class name="tests.Screenshots">
-        <methods>
-          <include name="beforeTestStart"/>
-          <include name="closewindow"/>
-        </methods>
-      </class> <!-- tests.Screenshots -->
       <class name="tests.VerifyUserUsedRightUrl">
         <methods>
-          <include name="beforeTestStart"/>
-          <include name="closewindow"/>
+          <include name="usingrighturl"/>
         </methods>
       </class> <!-- tests.VerifyUserUsedRightUrl -->
-      <class name="tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport">
+      <class name="tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage">
         <methods>
           <include name="beforeTestStart"/>
-          <include name="trycathch"/>
           <include name="closewindow"/>
         </methods>
-      </class> <!-- tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport -->
+      </class> <!-- tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Resgression] -->

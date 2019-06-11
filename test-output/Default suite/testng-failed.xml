@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.BookingaDesiredCar_Major_Functionality">
+      <class name="tests.TotalLinksCount">
         <methods>
           <include name="beforeTestStart"/>
-          <include name="carReservation"/>
+          <include name="pageLinksCount"/>
+          <include name="closewindow"/>
         </methods>
-      </class> <!-- tests.BookingaDesiredCar_Major_Functionality -->
+      </class> <!-- tests.TotalLinksCount -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
