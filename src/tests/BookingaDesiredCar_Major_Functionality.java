@@ -133,10 +133,10 @@ public class BookingaDesiredCar_Major_Functionality extends Config {
 //		Choose and Booking
 		
 		Thread.sleep(4000);
-//		clickByXpath(rCL.reserve);
+//		clickById(rCL.reserve);
 		
 	
-
+//		dropdown(chooseRCarCom,"AD");
 
 
 
@@ -155,7 +155,6 @@ public class BookingaDesiredCar_Major_Functionality extends Config {
 
 
 	}
-
 
 
 

@@ -2,24 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12114" started-at="2019-06-11T04:13:34Z" finished-at="2019-06-11T04:13:46Z">
+  <suite name="crossbrowserTest" duration-ms="63442" started-at="2019-06-23T15:22:01Z" finished-at="2019-06-23T15:23:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12114" started-at="2019-06-11T04:13:34Z" finished-at="2019-06-11T04:13:46Z">
-      <class name="tests.writeinXl">
-        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:tests.writeinXl@1ddf84b8]" name="beforeTestStart" is-config="true" duration-ms="11281" started-at="2019-06-11T00:13:34Z" finished-at="2019-06-11T00:13:46Z">
+    <test name="Test in Chrome" duration-ms="63442" started-at="2019-06-23T15:22:01Z" finished-at="2019-06-23T15:23:04Z">
+      <class name="tests.BookingaDesiredCar_Major_Functionality">
+        <test-method status="PASS" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.BookingaDesiredCar_Major_Functionality@46d56d67]" name="beforeTestStart" is-config="true" duration-ms="18822" started-at="2019-06-23T11:22:01Z" finished-at="2019-06-23T11:22:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestStart -->
-        <test-method status="PASS" signature="testWriteinxl()[pri:0, instance:tests.writeinXl@1ddf84b8]" name="testWriteinxl" duration-ms="632" started-at="2019-06-11T00:13:46Z" finished-at="2019-06-11T00:13:46Z">
+        <test-method status="PASS" signature="carReservation()[pri:0, instance:tests.BookingaDesiredCar_Major_Functionality@46d56d67]" name="carReservation" duration-ms="41208" started-at="2019-06-23T11:22:20Z" finished-at="2019-06-23T11:23:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testWriteinxl -->
-        <test-method status="PASS" signature="closewindow()[pri:0, instance:tests.writeinXl@1ddf84b8]" name="closewindow" is-config="true" duration-ms="184" started-at="2019-06-11T00:13:46Z" finished-at="2019-06-11T00:13:46Z">
+        </test-method> <!-- carReservation -->
+        <test-method status="PASS" signature="closeWindow()[pri:0, instance:tests.BookingaDesiredCar_Major_Functionality@46d56d67]" name="closeWindow" is-config="true" duration-ms="3381" started-at="2019-06-23T11:23:01Z" finished-at="2019-06-23T11:23:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closewindow -->
-      </class> <!-- tests.writeinXl -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- closeWindow -->
+      </class> <!-- tests.BookingaDesiredCar_Major_Functionality -->
+    </test> <!-- Test in Chrome -->
+  </suite> <!-- crossbrowserTest -->
 </testng-results>

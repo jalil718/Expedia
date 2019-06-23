@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>tests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>14/1/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/15</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jun 10 15:34:03 EDT 2019</td>
+<td>Started on:</td><td>Tue Jun 11 00:50:40 EDT 2019</td>
 </tr>
-<tr><td>Total time:</td><td>268 seconds (268117 ms)</td>
+<tr><td>Total time:</td><td>27 seconds (27938 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,6 +68,247 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.VerifyHeaderTabsTakeUsertotheRightPage.closewindow()'><b>closewindow</b><br>Test class: tests.VerifyHeaderTabsTakeUsertotheRightPage</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:14.666Z&apos;
+System info: host: &apos;DESKTOP-5TRQ2HB&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\mdjal\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61992}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 08ef067a9c8ad66505c45a9ec9f31d0b
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:487)
+	at base.Config.closewindow(Config.java:32)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace192694377", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace192694377'><pre>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:14.666Z&apos;
+System info: host: &apos;DESKTOP-5TRQ2HB&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\mdjal\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61992}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 08ef067a9c8ad66505c45a9ec9f31d0b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:487)
+	at base.Config.closewindow(Config.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>tests.VerifyHeaderTabsTakeUsertotheRightPage@6f3b5d16</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.BookingaDesiredCar_Major_Functionality.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.BookingaDesiredCar_Major_Functionality</td>
+<td></td>
+<td>0</td>
+<td>tests.BookingaDesiredCar_Major_Functionality@6295d394</td></tr>
+<tr>
+<td title='tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage</td>
+<td></td>
+<td>0</td>
+<td>tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@78b1cc93</td></tr>
+<tr>
+<td title='tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage</td>
+<td></td>
+<td>0</td>
+<td>tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@78b1cc93</td></tr>
+<tr>
+<td title='tests.SearchThingstoDobyDestination.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.SearchThingstoDobyDestination</td>
+<td></td>
+<td>0</td>
+<td>tests.SearchThingstoDobyDestination@6646153</td></tr>
+<tr>
+<td title='tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage</td>
+<td></td>
+<td>0</td>
+<td>tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage@475e586c</td></tr>
+<tr>
+<td title='tests.writeinXl.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.writeinXl</td>
+<td></td>
+<td>0</td>
+<td>tests.writeinXl@21507a04</td></tr>
+<tr>
+<td title='tests.VerifySubHeaderTabsTakeUsertotheRightPage.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.VerifySubHeaderTabsTakeUsertotheRightPage</td>
+<td></td>
+<td>0</td>
+<td>tests.VerifySubHeaderTabsTakeUsertotheRightPage@657c8ad9</td></tr>
+<tr>
+<td title='tests.VerifyUserUsedRightUrl.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.VerifyUserUsedRightUrl</td>
+<td></td>
+<td>0</td>
+<td>tests.VerifyUserUsedRightUrl@143640d5</td></tr>
+<tr>
+<td title='tests.VerifyUserLandedontheRightPage.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.VerifyUserLandedontheRightPage</td>
+<td></td>
+<td>0</td>
+<td>tests.VerifyUserLandedontheRightPage@436a4e4b</td></tr>
+<tr>
+<td title='tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport</td>
+<td></td>
+<td>0</td>
+<td>tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport@f2f2cc1</td></tr>
+<tr>
+<td title='tests.SigninwithValidCredentials.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.SigninwithValidCredentials</td>
+<td></td>
+<td>0</td>
+<td>tests.SigninwithValidCredentials@3a079870</td></tr>
+<tr>
+<td title='tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp</td>
+<td></td>
+<td>0</td>
+<td>tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp@3b2cf7ab</td></tr>
+<tr>
+<td title='tests.CreateAnAccountWithExpedia.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.CreateAnAccountWithExpedia</td>
+<td></td>
+<td>0</td>
+<td>tests.CreateAnAccountWithExpedia@2aa5fe93</td></tr>
+<tr>
+<td title='tests.ReadFromXl.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.ReadFromXl</td>
+<td></td>
+<td>0</td>
+<td>tests.ReadFromXl@5c1a8622</td></tr>
+<tr>
+<td title='tests.SubHeaderFlights.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.SubHeaderFlights</td>
+<td></td>
+<td>0</td>
+<td>tests.SubHeaderFlights@5ad851c9</td></tr>
+<tr>
+<td title='tests.BookingaDesiredCar_Major_Functionality.closewindow()'><b>closewindow</b><br>Test class: tests.BookingaDesiredCar_Major_Functionality</td>
+<td></td>
+<td>0</td>
+<td>tests.BookingaDesiredCar_Major_Functionality@6295d394</td></tr>
+<tr>
+<td title='tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage.closewindow()'><b>closewindow</b><br>Test class: tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage</td>
+<td></td>
+<td>0</td>
+<td>tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@78b1cc93</td></tr>
+<tr>
+<td title='tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage.closewindow()'><b>closewindow</b><br>Test class: tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage</td>
+<td></td>
+<td>0</td>
+<td>tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@78b1cc93</td></tr>
+<tr>
+<td title='tests.SearchThingstoDobyDestination.closewindow()'><b>closewindow</b><br>Test class: tests.SearchThingstoDobyDestination</td>
+<td></td>
+<td>0</td>
+<td>tests.SearchThingstoDobyDestination@6646153</td></tr>
+<tr>
+<td title='tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage.closewindow()'><b>closewindow</b><br>Test class: tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage</td>
+<td></td>
+<td>0</td>
+<td>tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage@475e586c</td></tr>
+<tr>
+<td title='tests.writeinXl.closewindow()'><b>closewindow</b><br>Test class: tests.writeinXl</td>
+<td></td>
+<td>0</td>
+<td>tests.writeinXl@21507a04</td></tr>
+<tr>
+<td title='tests.VerifySubHeaderTabsTakeUsertotheRightPage.closewindow()'><b>closewindow</b><br>Test class: tests.VerifySubHeaderTabsTakeUsertotheRightPage</td>
+<td></td>
+<td>0</td>
+<td>tests.VerifySubHeaderTabsTakeUsertotheRightPage@657c8ad9</td></tr>
+<tr>
+<td title='tests.VerifyUserUsedRightUrl.closewindow()'><b>closewindow</b><br>Test class: tests.VerifyUserUsedRightUrl</td>
+<td></td>
+<td>0</td>
+<td>tests.VerifyUserUsedRightUrl@143640d5</td></tr>
+<tr>
+<td title='tests.VerifyUserLandedontheRightPage.closewindow()'><b>closewindow</b><br>Test class: tests.VerifyUserLandedontheRightPage</td>
+<td></td>
+<td>0</td>
+<td>tests.VerifyUserLandedontheRightPage@436a4e4b</td></tr>
+<tr>
+<td title='tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport.closewindow()'><b>closewindow</b><br>Test class: tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport</td>
+<td></td>
+<td>0</td>
+<td>tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport@f2f2cc1</td></tr>
+<tr>
+<td title='tests.SigninwithValidCredentials.closewindow()'><b>closewindow</b><br>Test class: tests.SigninwithValidCredentials</td>
+<td></td>
+<td>0</td>
+<td>tests.SigninwithValidCredentials@3a079870</td></tr>
+<tr>
+<td title='tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp.closewindow()'><b>closewindow</b><br>Test class: tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp</td>
+<td></td>
+<td>0</td>
+<td>tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp@3b2cf7ab</td></tr>
+<tr>
+<td title='tests.CreateAnAccountWithExpedia.closewindow()'><b>closewindow</b><br>Test class: tests.CreateAnAccountWithExpedia</td>
+<td></td>
+<td>0</td>
+<td>tests.CreateAnAccountWithExpedia@2aa5fe93</td></tr>
+<tr>
+<td title='tests.ReadFromXl.closewindow()'><b>closewindow</b><br>Test class: tests.ReadFromXl</td>
+<td></td>
+<td>0</td>
+<td>tests.ReadFromXl@5c1a8622</td></tr>
+<tr>
+<td title='tests.SubHeaderFlights.closewindow()'><b>closewindow</b><br>Test class: tests.SubHeaderFlights</td>
+<td></td>
+<td>0</td>
+<td>tests.SubHeaderFlights@5ad851c9</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -75,17 +316,52 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport.trycathch()'><b>trycathch</b><br>Test class: tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport</td>
-<td><div><pre>java.lang.AssertionError: expected [Up to 30% hotel discounts] but found [Up to 30% hotel discounts for app users]
-	at tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport.trycathch(PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport.java:27)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1932470703", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1932470703'><pre>java.lang.AssertionError: expected [Up to 30% hotel discounts] but found [Up to 30% hotel discounts for app users]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertEquals(Assert.java:125)
-	at org.testng.Assert.assertEquals(Assert.java:178)
-	at org.testng.Assert.assertEquals(Assert.java:188)
-	at tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport.trycathch(PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport.java:27)
+<td title='tests.VerifyHeaderTabsTakeUsertotheRightPage.headerTabsClickability()'><b>headerTabsClickability</b><br>Test class: tests.VerifyHeaderTabsTakeUsertotheRightPage</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:14.666Z&apos;
+System info: host: &apos;DESKTOP-5TRQ2HB&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\mdjal\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61992}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 08ef067a9c8ad66505c45a9ec9f31d0b
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:329)
+	at tests.VerifyHeaderTabsTakeUsertotheRightPage.headerTabsClickability(VerifyHeaderTabsTakeUsertotheRightPage.java:37)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace570253226", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace570253226'><pre>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:14.666Z&apos;
+System info: host: &apos;DESKTOP-5TRQ2HB&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\mdjal\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61992}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 08ef067a9c8ad66505c45a9ec9f31d0b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:329)
+	at tests.VerifyHeaderTabsTakeUsertotheRightPage.headerTabsClickability(VerifyHeaderTabsTakeUsertotheRightPage.java:37)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -110,86 +386,8 @@ function toggleAllBoxes() {
 	at org.testng.TestNG.privateMain(TestNG.java:1355)
 	at org.testng.TestNG.main(TestNG.java:1324)
 </pre></div></td>
-<td>0</td>
-<td>tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport@436a4e4b</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='tests.CreateAnAccountWithExpedia.accountHeader()'><b>accountHeader</b><br>Test class: tests.CreateAnAccountWithExpedia</td>
-<td></td>
-<td>3</td>
-<td>tests.CreateAnAccountWithExpedia@3b2cf7ab</td></tr>
-<tr>
-<td title='tests.BookingaDesiredCar_Major_Functionality.carReservation()'><b>carReservation</b><br>Test class: tests.BookingaDesiredCar_Major_Functionality</td>
-<td></td>
-<td>38</td>
-<td>tests.BookingaDesiredCar_Major_Functionality@143640d5</td></tr>
-<tr>
-<td title='tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage.expediaLogo()'><b>expediaLogo</b><br>Test class: tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage</td>
-<td></td>
-<td>0</td>
-<td>tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@6f3b5d16</td></tr>
-<tr>
-<td title='tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage.expediaMainPageScrollBar()'><b>expediaMainPageScrollBar</b><br>Test class: tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage</td>
-<td></td>
-<td>3</td>
-<td>tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage@6295d394</td></tr>
-<tr>
-<td title='tests.SubHeaderFlights.flights()'><b>flights</b><br>Test class: tests.SubHeaderFlights</td>
-<td></td>
-<td>6</td>
-<td>tests.SubHeaderFlights@5c1a8622</td></tr>
-<tr>
-<td title='tests.VerifyHeaderTabsTakeUsertotheRightPage.headerTabsClickability()'><b>headerTabsClickability</b><br>Test class: tests.VerifyHeaderTabsTakeUsertotheRightPage</td>
-<td></td>
-<td>31</td>
-<td>tests.VerifyHeaderTabsTakeUsertotheRightPage@3b938003</td></tr>
-<tr>
-<td title='tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage.scanQRCode()'><b>scanQRCode</b><br>Test class: tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage</td>
-<td></td>
-<td>0</td>
-<td>tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@6f3b5d16</td></tr>
-<tr>
-<td title='tests.SigninwithValidCredentials.signInAccount()'><b>signInAccount</b><br>Test class: tests.SigninwithValidCredentials</td>
-<td></td>
-<td>8</td>
-<td>tests.SigninwithValidCredentials@f2f2cc1</td></tr>
-<tr>
-<td title='tests.ReadFromXl.testReadFromXl()'><b>testReadFromXl</b><br>Test class: tests.ReadFromXl</td>
-<td></td>
-<td>4</td>
-<td>tests.ReadFromXl@2aa5fe93</td></tr>
-<tr>
-<td title='tests.writeinXl.testWriteinxl()'><b>testWriteinxl</b><br>Test class: tests.writeinXl</td>
-<td></td>
-<td>0</td>
-<td>tests.writeinXl@6646153</td></tr>
-<tr>
-<td title='tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp.textMessageReceive()'><b>textMessageReceive</b><br>Test class: tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp</td>
-<td></td>
-<td>1</td>
-<td>tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp@3a079870</td></tr>
-<tr>
-<td title='tests.SearchThingstoDobyDestination.thingstoDo()'><b>thingstoDo</b><br>Test class: tests.SearchThingstoDobyDestination</td>
-<td></td>
-<td>12</td>
-<td>tests.SearchThingstoDobyDestination@78b1cc93</td></tr>
-<tr>
-<td title='tests.VerifyUserLandedontheRightPage.userLandedontherightpage()'><b>userLandedontherightpage</b><br>Test class: tests.VerifyUserLandedontheRightPage</td>
-<td></td>
-<td>0</td>
-<td>tests.VerifyUserLandedontheRightPage@657c8ad9</td></tr>
-<tr>
-<td title='tests.VerifyUserUsedRightUrl.usingrighturl()'><b>usingrighturl</b><br>Test class: tests.VerifyUserUsedRightUrl</td>
-<td></td>
-<td>0</td>
-<td>tests.VerifyUserUsedRightUrl@21507a04</td></tr>
+<td>17</td>
+<td>tests.VerifyHeaderTabsTakeUsertotheRightPage@6f3b5d16</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -199,38 +397,80 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='tests.CreateAnAccountWithExpedia.accountHeader()'><b>accountHeader</b><br>Test class: tests.CreateAnAccountWithExpedia</td>
+<td></td>
+<td>0</td>
+<td>tests.CreateAnAccountWithExpedia@2aa5fe93</td></tr>
+<tr>
+<td title='tests.BookingaDesiredCar_Major_Functionality.carReservation()'><b>carReservation</b><br>Test class: tests.BookingaDesiredCar_Major_Functionality</td>
+<td></td>
+<td>0</td>
+<td>tests.BookingaDesiredCar_Major_Functionality@6295d394</td></tr>
+<tr>
+<td title='tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage.expediaLogo()'><b>expediaLogo</b><br>Test class: tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage</td>
+<td></td>
+<td>0</td>
+<td>tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@78b1cc93</td></tr>
+<tr>
+<td title='tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage.expediaMainPageScrollBar()'><b>expediaMainPageScrollBar</b><br>Test class: tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage</td>
+<td></td>
+<td>0</td>
+<td>tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage@475e586c</td></tr>
+<tr>
+<td title='tests.SubHeaderFlights.flights()'><b>flights</b><br>Test class: tests.SubHeaderFlights</td>
+<td></td>
+<td>0</td>
+<td>tests.SubHeaderFlights@5ad851c9</td></tr>
+<tr>
+<td title='tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage.scanQRCode()'><b>scanQRCode</b><br>Test class: tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage</td>
+<td></td>
+<td>0</td>
+<td>tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@78b1cc93</td></tr>
+<tr>
+<td title='tests.SigninwithValidCredentials.signInAccount()'><b>signInAccount</b><br>Test class: tests.SigninwithValidCredentials</td>
+<td></td>
+<td>0</td>
+<td>tests.SigninwithValidCredentials@3a079870</td></tr>
+<tr>
 <td title='tests.VerifySubHeaderTabsTakeUsertotheRightPage.subHeaderTabs()'><b>subHeaderTabs</b><br>Test class: tests.VerifySubHeaderTabsTakeUsertotheRightPage</td>
-<td><div><pre>org.testng.SkipException: Requirements changed and we don&apos;t need to perform this test anymore
-	at tests.VerifySubHeaderTabsTakeUsertotheRightPage.subHeaderTabs(VerifySubHeaderTabsTakeUsertotheRightPage.java:29)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1631227617", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1631227617'><pre>org.testng.SkipException: Requirements changed and we don&apos;t need to perform this test anymore
-	at tests.VerifySubHeaderTabsTakeUsertotheRightPage.subHeaderTabs(VerifySubHeaderTabsTakeUsertotheRightPage.java:29)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-</pre></div></td>
-<td>2</td>
-<td>tests.VerifySubHeaderTabsTakeUsertotheRightPage@475e586c</td></tr>
+<td></td>
+<td>0</td>
+<td>tests.VerifySubHeaderTabsTakeUsertotheRightPage@657c8ad9</td></tr>
+<tr>
+<td title='tests.ReadFromXl.testReadFromXl()'><b>testReadFromXl</b><br>Test class: tests.ReadFromXl</td>
+<td></td>
+<td>0</td>
+<td>tests.ReadFromXl@5c1a8622</td></tr>
+<tr>
+<td title='tests.writeinXl.testWriteinxl()'><b>testWriteinxl</b><br>Test class: tests.writeinXl</td>
+<td></td>
+<td>0</td>
+<td>tests.writeinXl@21507a04</td></tr>
+<tr>
+<td title='tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp.textMessageReceive()'><b>textMessageReceive</b><br>Test class: tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp</td>
+<td></td>
+<td>0</td>
+<td>tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp@3b2cf7ab</td></tr>
+<tr>
+<td title='tests.SearchThingstoDobyDestination.thingstoDo()'><b>thingstoDo</b><br>Test class: tests.SearchThingstoDobyDestination</td>
+<td></td>
+<td>0</td>
+<td>tests.SearchThingstoDobyDestination@6646153</td></tr>
+<tr>
+<td title='tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport.trycathch()'><b>trycathch</b><br>Test class: tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport</td>
+<td></td>
+<td>0</td>
+<td>tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport@f2f2cc1</td></tr>
+<tr>
+<td title='tests.VerifyUserLandedontheRightPage.userLandedontherightpage()'><b>userLandedontherightpage</b><br>Test class: tests.VerifyUserLandedontheRightPage</td>
+<td></td>
+<td>0</td>
+<td>tests.VerifyUserLandedontheRightPage@436a4e4b</td></tr>
+<tr>
+<td title='tests.VerifyUserUsedRightUrl.usingrighturl()'><b>usingrighturl</b><br>Test class: tests.VerifyUserUsedRightUrl</td>
+<td></td>
+<td>0</td>
+<td>tests.VerifyUserUsedRightUrl@143640d5</td></tr>
 </table><p>
 </body>
 </html>

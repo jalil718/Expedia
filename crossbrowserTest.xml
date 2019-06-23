@@ -4,22 +4,59 @@
   <test name="Test in Firefox">
   		<parameter name="browser" value="ch"></parameter>
     <classes>
+      <class name="tests.VerifyHeaderTabsTakeUsertotheRightPage"/>
+      <class name="tests.DynamicPathasNotePad"/>
       <class name="tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage"/>
+      <class name="tests.SearchThingstoDobyDestination"/>
       <class name="tests.writeinXl"/>
+      <class name="tests.VerifyUserUsedRightUrl"/>
+      <class name="tests.AlertMessage"/>
+      <class name="tests.BookingaDesiredCar_Major_Functionality"/>
+      <class name="tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage"/>
+      <class name="tests.VerifySubHeaderTabsTakeUsertotheRightPage"/>
+      <class name="tests.VerifyUserLandedontheRightPage"/>
+      <class name="tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport"/>
+      <class name="tests.SigninwithValidCredentials"/>
+      <class name="tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp"/>
+      <class name="tests.CreateAnAccountWithExpedia"/>
+      <class name="tests.ReadFromXl"/>
+      <class name="tests.SubHeaderFlights"/>
+      <class name="tests.TotalLinksCount"/>
+	  <class name="tests.Totalimagescountinthewebpage"/>
+      <class name="tests.CountIframeinthePage"/>
       
       
-      </classes>
+      
+    </classes>
       </test>
   
   
   <test name="Test in Chrome">    
       <parameter name="browser" value="ff"></parameter>
     <classes>
+      <class name="tests.VerifyHeaderTabsTakeUsertotheRightPage"/>
+      <class name="tests.DynamicPathasNotePad"/>
       <class name="tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage"/>
+      <class name="tests.SearchThingstoDobyDestination"/>
       <class name="tests.writeinXl"/>
+      <class name="tests.VerifyUserUsedRightUrl"/>
+      <class name="tests.AlertMessage"/>
+      <class name="tests.BookingaDesiredCar_Major_Functionality"/>
+      <class name="tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage"/>
+      <class name="tests.VerifySubHeaderTabsTakeUsertotheRightPage"/>
+      <class name="tests.VerifyUserLandedontheRightPage"/>
+      <class name="tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport"/>
+      <class name="tests.SigninwithValidCredentials"/>
+      <class name="tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp"/>
+      <class name="tests.CreateAnAccountWithExpedia"/>
+      <class name="tests.ReadFromXl"/>
+      <class name="tests.SubHeaderFlights"/>
+      <class name="tests.TotalLinksCount"/>
+	  <class name="tests.Totalimagescountinthewebpage"/>
+      <class name="tests.CountIframeinthePage"/>
       
-          
-          
+      
+      
     </classes>
     
   </test> 

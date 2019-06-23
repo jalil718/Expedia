@@ -117,7 +117,7 @@ public class ExLocators {
 	public String rentalCarCompany= "vend";
 	public String discountCode = "car-options-discount-clp";
 	
-	public String reserve="//*[@id='ember1544']";
+	public String reserve="ember1519";
 	public String reserve2ndstep="//*[@id='ember1248']";
 	public String nameondrivinglicense="//*[@id='preferences']/section/article/fieldset/div[2]/div[2]/label/input";
 	public String phoneNumber="//*[@id='preferences']/section/article/fieldset/div[2]/label[2]/input";
@@ -143,8 +143,9 @@ public class ExLocators {
 	
 // Write in excel
 	public String gettheExpediaApp = "//*[@id='mad-banner-wrapper']/div/div[1]/div/h5/div";
+	public String footerWarningtext= "//*[@id='site-footer-wrap']/div[6]";//Expedia Warning text
 	
-// Assert Practive
+// Assert Practice
 	public String hotelDiscount= "//*[@id='mad-banner-wrapper']/div/section/ul/li[1]/span[2]";
 	
 // Search Vacation Rental
@@ -154,8 +155,7 @@ public class ExLocators {
 	public String vRSearhButton= "VR-searchButtonExt1";
 	
 
-// Expedia Warning text
-	public String footerWarningtext= "//*[@id='site-footer-wrap']/div[6]";
+
 	
 	
 	

@@ -5,13 +5,63 @@
   <test name="Test in Firefox(failed)">
     <parameter name="browser" value="ch"/>
     <classes>
+      <class name="tests.Totalimagescountinthewebpage">
+        <methods>
+          <include name="totalImageCount"/>
+        </methods>
+      </class> <!-- tests.Totalimagescountinthewebpage -->
+      <class name="tests.ReadFromXl">
+        <methods>
+          <include name="testReadFromXl"/>
+        </methods>
+      </class> <!-- tests.ReadFromXl -->
+      <class name="tests.VerifyHeaderTabsTakeUsertotheRightPage">
+        <methods>
+          <include name="headerTabsClickability"/>
+          <include name="beforeTestStart"/>
+          <include name="beforeTestStart"/>
+          <include name="closeWindow"/>
+        </methods>
+      </class> <!-- tests.VerifyHeaderTabsTakeUsertotheRightPage -->
+      <class name="tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport">
+        <methods>
+          <include name="trycathch"/>
+        </methods>
+      </class> <!-- tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport -->
+      <class name="tests.SubHeaderFlights">
+        <methods>
+          <include name="flights"/>
+        </methods>
+      </class> <!-- tests.SubHeaderFlights -->
+      <class name="tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage">
+        <methods>
+          <include name="expediaMainPageScrollBar"/>
+        </methods>
+      </class> <!-- tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage -->
+      <class name="tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp">
+        <methods>
+          <include name="textMessageReceive"/>
+        </methods>
+      </class> <!-- tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp -->
+      <class name="tests.CountIframeinthePage">
+        <methods>
+          <include name="countIframe"/>
+        </methods>
+      </class> <!-- tests.CountIframeinthePage -->
+      <class name="tests.TotalLinksCount">
+        <methods>
+          <include name="pageLinksCount"/>
+        </methods>
+      </class> <!-- tests.TotalLinksCount -->
+      <class name="tests.VerifyUserUsedRightUrl">
+        <methods>
+          <include name="usingrighturl"/>
+        </methods>
+      </class> <!-- tests.VerifyUserUsedRightUrl -->
       <class name="tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage">
         <methods>
-          <include name="QuitWindow"/>
-          <include name="beforeTestStart"/>
-          <include name="beforeTestStart"/>
-          <include name="closeWindow"/>
-          <include name="closeWindow"/>
+          <include name="expediaLogo"/>
+          <include name="scanQRCode"/>
         </methods>
       </class> <!-- tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage -->
       <class name="tests.writeinXl">
@@ -19,18 +69,98 @@
           <include name="testWriteinxl"/>
         </methods>
       </class> <!-- tests.writeinXl -->
+      <class name="tests.VerifyUserLandedontheRightPage">
+        <methods>
+          <include name="userLandedontherightpage"/>
+        </methods>
+      </class> <!-- tests.VerifyUserLandedontheRightPage -->
+      <class name="tests.BookingaDesiredCar_Major_Functionality">
+        <methods>
+          <include name="carReservation"/>
+        </methods>
+      </class> <!-- tests.BookingaDesiredCar_Major_Functionality -->
+      <class name="tests.CreateAnAccountWithExpedia">
+        <methods>
+          <include name="accountHeader"/>
+        </methods>
+      </class> <!-- tests.CreateAnAccountWithExpedia -->
+      <class name="tests.SigninwithValidCredentials">
+        <methods>
+          <include name="signInAccount"/>
+        </methods>
+      </class> <!-- tests.SigninwithValidCredentials -->
+      <class name="tests.VerifySubHeaderTabsTakeUsertotheRightPage">
+        <methods>
+          <include name="subHeaderTabs"/>
+        </methods>
+      </class> <!-- tests.VerifySubHeaderTabsTakeUsertotheRightPage -->
+      <class name="tests.SearchThingstoDobyDestination">
+        <methods>
+          <include name="thingstoDo"/>
+        </methods>
+      </class> <!-- tests.SearchThingstoDobyDestination -->
     </classes>
   </test> <!-- Test in Firefox(failed) -->
   <test name="Test in Chrome(failed)">
     <parameter name="browser" value="ff"/>
     <classes>
+      <class name="tests.Totalimagescountinthewebpage">
+        <methods>
+          <include name="totalImageCount"/>
+        </methods>
+      </class> <!-- tests.Totalimagescountinthewebpage -->
+      <class name="tests.ReadFromXl">
+        <methods>
+          <include name="testReadFromXl"/>
+        </methods>
+      </class> <!-- tests.ReadFromXl -->
+      <class name="tests.VerifyHeaderTabsTakeUsertotheRightPage">
+        <methods>
+          <include name="headerTabsClickability"/>
+          <include name="beforeTestStart"/>
+          <include name="beforeTestStart"/>
+          <include name="closeWindow"/>
+        </methods>
+      </class> <!-- tests.VerifyHeaderTabsTakeUsertotheRightPage -->
+      <class name="tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport">
+        <methods>
+          <include name="trycathch"/>
+        </methods>
+      </class> <!-- tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport -->
+      <class name="tests.SubHeaderFlights">
+        <methods>
+          <include name="flights"/>
+        </methods>
+      </class> <!-- tests.SubHeaderFlights -->
+      <class name="tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage">
+        <methods>
+          <include name="expediaMainPageScrollBar"/>
+        </methods>
+      </class> <!-- tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage -->
+      <class name="tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp">
+        <methods>
+          <include name="textMessageReceive"/>
+        </methods>
+      </class> <!-- tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp -->
+      <class name="tests.CountIframeinthePage">
+        <methods>
+          <include name="countIframe"/>
+        </methods>
+      </class> <!-- tests.CountIframeinthePage -->
+      <class name="tests.TotalLinksCount">
+        <methods>
+          <include name="pageLinksCount"/>
+        </methods>
+      </class> <!-- tests.TotalLinksCount -->
+      <class name="tests.VerifyUserUsedRightUrl">
+        <methods>
+          <include name="usingrighturl"/>
+        </methods>
+      </class> <!-- tests.VerifyUserUsedRightUrl -->
       <class name="tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage">
         <methods>
-          <include name="QuitWindow"/>
-          <include name="beforeTestStart"/>
-          <include name="beforeTestStart"/>
-          <include name="closeWindow"/>
-          <include name="closeWindow"/>
+          <include name="expediaLogo"/>
+          <include name="scanQRCode"/>
         </methods>
       </class> <!-- tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage -->
       <class name="tests.writeinXl">
@@ -38,6 +168,36 @@
           <include name="testWriteinxl"/>
         </methods>
       </class> <!-- tests.writeinXl -->
+      <class name="tests.VerifyUserLandedontheRightPage">
+        <methods>
+          <include name="userLandedontherightpage"/>
+        </methods>
+      </class> <!-- tests.VerifyUserLandedontheRightPage -->
+      <class name="tests.BookingaDesiredCar_Major_Functionality">
+        <methods>
+          <include name="carReservation"/>
+        </methods>
+      </class> <!-- tests.BookingaDesiredCar_Major_Functionality -->
+      <class name="tests.CreateAnAccountWithExpedia">
+        <methods>
+          <include name="accountHeader"/>
+        </methods>
+      </class> <!-- tests.CreateAnAccountWithExpedia -->
+      <class name="tests.SigninwithValidCredentials">
+        <methods>
+          <include name="signInAccount"/>
+        </methods>
+      </class> <!-- tests.SigninwithValidCredentials -->
+      <class name="tests.VerifySubHeaderTabsTakeUsertotheRightPage">
+        <methods>
+          <include name="subHeaderTabs"/>
+        </methods>
+      </class> <!-- tests.VerifySubHeaderTabsTakeUsertotheRightPage -->
+      <class name="tests.SearchThingstoDobyDestination">
+        <methods>
+          <include name="thingstoDo"/>
+        </methods>
+      </class> <!-- tests.SearchThingstoDobyDestination -->
     </classes>
   </test> <!-- Test in Chrome(failed) -->
 </suite> <!-- Failed suite [crossbrowserTest] -->
