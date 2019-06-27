@@ -2,31 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="crossbrowserTest" duration-ms="63442" started-at="2019-06-23T15:22:01Z" finished-at="2019-06-23T15:23:04Z">
+  <suite name="Individual Test run" duration-ms="12032" started-at="2019-06-27T02:59:16Z" finished-at="2019-06-27T02:59:28Z">
     <groups>
     </groups>
-    <test name="Test in Chrome" duration-ms="63442" started-at="2019-06-23T15:22:01Z" finished-at="2019-06-23T15:23:04Z">
-      <class name="tests.BookingaDesiredCar_Major_Functionality">
-        <test-method status="PASS" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.BookingaDesiredCar_Major_Functionality@46d56d67]" name="beforeTestStart" is-config="true" duration-ms="18822" started-at="2019-06-23T11:22:01Z" finished-at="2019-06-23T11:22:20Z">
+    <test name="Test in Chrome" duration-ms="12032" started-at="2019-06-27T02:59:16Z" finished-at="2019-06-27T02:59:28Z">
+      <class name="tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp">
+        <test-method status="PASS" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp@46d56d67]" name="beforeTestStart" is-config="true" duration-ms="9948" started-at="2019-06-26T22:59:16Z" finished-at="2019-06-26T22:59:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ff]]>
+                <![CDATA[ch]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestStart -->
-        <test-method status="PASS" signature="carReservation()[pri:0, instance:tests.BookingaDesiredCar_Major_Functionality@46d56d67]" name="carReservation" duration-ms="41208" started-at="2019-06-23T11:22:20Z" finished-at="2019-06-23T11:23:01Z">
+        <test-method status="PASS" signature="textMessageReceive()[pri:0, instance:tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp@46d56d67]" name="textMessageReceive" duration-ms="1865" started-at="2019-06-26T22:59:26Z" finished-at="2019-06-26T22:59:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- carReservation -->
-        <test-method status="PASS" signature="closeWindow()[pri:0, instance:tests.BookingaDesiredCar_Major_Functionality@46d56d67]" name="closeWindow" is-config="true" duration-ms="3381" started-at="2019-06-23T11:23:01Z" finished-at="2019-06-23T11:23:04Z">
+        </test-method> <!-- textMessageReceive -->
+        <test-method status="PASS" signature="closeWindow()[pri:0, instance:tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp@46d56d67]" name="closeWindow" is-config="true" duration-ms="201" started-at="2019-06-26T22:59:28Z" finished-at="2019-06-26T22:59:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeWindow -->
-      </class> <!-- tests.BookingaDesiredCar_Major_Functionality -->
+      </class> <!-- tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp -->
     </test> <!-- Test in Chrome -->
-  </suite> <!-- crossbrowserTest -->
+  </suite> <!-- Individual Test run -->
 </testng-results>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="crossbrowserTest">
+<suite name="Individual Test run">
   
   
   
   <test name="Test in Chrome">    
-      <parameter name="browser" value="ff"></parameter>
+      <parameter name="browser" value="ch"></parameter>
     <classes>
-          <class name="tests.BookingaDesiredCar_Major_Functionality"/>
+          <class name="tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp"/>
     
       
       

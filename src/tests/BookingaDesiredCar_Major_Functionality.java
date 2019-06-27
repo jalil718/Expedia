@@ -117,10 +117,12 @@ public class BookingaDesiredCar_Major_Functionality extends Config {
 		System.out.println(selCar.getFirstSelectedOption().getText());
 
 		WebElement chooseRCarCom= driver.findElement(By.name(rCL.rentalCarCompany));
-		Select selCarCompany= new Select(chooseRCarCom);
-		selCarCompany.selectByValue("AD");
-		System.out.println(selCarCompany.getFirstSelectedOption().getText());
+//		Select selCarCompany= new Select(chooseRCarCom);
+//		selCarCompany.selectByValue("AD");
+//		System.out.println(selCarCompany.getFirstSelectedOption().getText());
 
+		dropdown(chooseRCarCom,"AD");
+		
 		WebElement discountCo= driver.findElement(By.id(rCL.discountCode));
 		Select selDisCode= new Select(discountCo);
 		selDisCode.selectByValue("0");
@@ -136,7 +138,6 @@ public class BookingaDesiredCar_Major_Functionality extends Config {
 //		clickById(rCL.reserve);
 		
 	
-//		dropdown(chooseRCarCom,"AD");
 
 
 

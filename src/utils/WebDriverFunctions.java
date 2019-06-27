@@ -77,7 +77,10 @@ public class WebDriverFunctions {
 	
 	public void clickByCss(String loc){
 		driver.findElement(By.cssSelector(loc)).click();
+	
 	}
+	
+	
 	
 	
 	// -------------- TIME
@@ -105,13 +108,17 @@ public class WebDriverFunctions {
 		
 	}
 	
-
+	// dropdown arrow
 	
 	public static void dropdown(WebElement element,String value){
 		
 		Select selCarCompany= new Select(element);
 		selCarCompany.selectByValue(value);
 	}
+	
+	
+	
+	
 
 	
 	

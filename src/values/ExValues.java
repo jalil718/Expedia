@@ -22,7 +22,7 @@ public class ExValues {
 
 
 //	Text Message
-	public String textMessage= "3474252754";
+	public String textMessage= "3478045749";
 	
 //	Search things to do
 	public String thingstoDoLocation= "Miami";
