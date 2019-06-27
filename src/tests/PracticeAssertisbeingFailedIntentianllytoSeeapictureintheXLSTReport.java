@@ -18,7 +18,7 @@ public class PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport
 	ExLocators exL= new ExLocators();
 	
 	@Test
-	public void trycathch(){
+	public void assertpractice(){
 		String expectedValue= "Up to 30% hotel discounts";
 		String actualValue= driver.findElement(By.xpath(exL.hotelDiscount)).getText();
 				
