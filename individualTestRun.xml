@@ -7,7 +7,7 @@
   <test name="Test in Chrome">    
       <parameter name="browser" value="ch"></parameter>
     <classes>
-          <class name="tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp"/>
+          <class name="tests.TryCatchPractice"/>
     
       
       

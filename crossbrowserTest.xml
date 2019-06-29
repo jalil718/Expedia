@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="crossbrowserTest">
-  <test name="Test in Firefox">
+  <test name="Test in Chrome">
   		<parameter name="browser" value="ch"></parameter>
     <classes>
       <class name="tests.VerifyHeaderTabsTakeUsertotheRightPage"/>

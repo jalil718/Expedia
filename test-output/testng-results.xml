@@ -1,13 +1,249 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="38" failed="0" total="38" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Individual Test run" duration-ms="12032" started-at="2019-06-27T02:59:16Z" finished-at="2019-06-27T02:59:28Z">
+  <suite name="crossbrowserTest" duration-ms="8866" started-at="2019-06-29T05:16:16Z" finished-at="2019-06-29T05:16:25Z">
     <groups>
     </groups>
-    <test name="Test in Chrome" duration-ms="12032" started-at="2019-06-27T02:59:16Z" finished-at="2019-06-27T02:59:28Z">
+    <test name="Test in Chrome" duration-ms="4241" started-at="2019-06-29T05:16:16Z" finished-at="2019-06-29T05:16:20Z">
+      <class name="tests.BookingaDesiredCar_Major_Functionality">
+        <test-method status="SKIP" signature="carReservation()[pri:0, instance:tests.BookingaDesiredCar_Major_Functionality@3c153a1]" name="carReservation" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carReservation -->
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.BookingaDesiredCar_Major_Functionality@3c153a1]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.BookingaDesiredCar_Major_Functionality@3c153a1]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- tests.BookingaDesiredCar_Major_Functionality -->
+      <class name="tests.ReadFromXl">
+        <test-method status="SKIP" signature="testReadFromXl()[pri:0, instance:tests.ReadFromXl@7c417213]" name="testReadFromXl" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadFromXl -->
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.ReadFromXl@7c417213]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.ReadFromXl@7c417213]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- tests.ReadFromXl -->
+      <class name="tests.SubHeaderFlights">
+        <test-method status="SKIP" signature="flights()[pri:0, instance:tests.SubHeaderFlights@15761df8]" name="flights" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flights -->
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.SubHeaderFlights@15761df8]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.SubHeaderFlights@15761df8]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- tests.SubHeaderFlights -->
+      <class name="tests.writeinXl">
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.writeinXl@5ad851c9]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="SKIP" signature="testWriteinxl()[pri:0, instance:tests.writeinXl@5ad851c9]" name="testWriteinxl" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWriteinxl -->
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.writeinXl@5ad851c9]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- tests.writeinXl -->
+      <class name="tests.VerifySubHeaderTabsTakeUsertotheRightPage">
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.VerifySubHeaderTabsTakeUsertotheRightPage@13acb0d1]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.VerifySubHeaderTabsTakeUsertotheRightPage@13acb0d1]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="SKIP" signature="subHeaderTabs()[pri:0, instance:tests.VerifySubHeaderTabsTakeUsertotheRightPage@13acb0d1]" name="subHeaderTabs" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subHeaderTabs -->
+      </class> <!-- tests.VerifySubHeaderTabsTakeUsertotheRightPage -->
+      <class name="tests.SearchThingstoDobyDestination">
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.SearchThingstoDobyDestination@5c1a8622]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="SKIP" signature="thingstoDo()[pri:0, instance:tests.SearchThingstoDobyDestination@5c1a8622]" name="thingstoDo" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thingstoDo -->
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.SearchThingstoDobyDestination@5c1a8622]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- tests.SearchThingstoDobyDestination -->
+      <class name="tests.TotalLinksCount">
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.TotalLinksCount@6ab7a896]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.TotalLinksCount@6ab7a896]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="SKIP" signature="pageLinksCount()[pri:0, instance:tests.TotalLinksCount@6ab7a896]" name="pageLinksCount" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageLinksCount -->
+      </class> <!-- tests.TotalLinksCount -->
+      <class name="tests.Totalimagescountinthewebpage">
+        <test-method status="SKIP" signature="totalImageCount()[pri:0, instance:tests.Totalimagescountinthewebpage@327b636c]" name="totalImageCount" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalImageCount -->
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.Totalimagescountinthewebpage@327b636c]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.Totalimagescountinthewebpage@327b636c]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+      </class> <!-- tests.Totalimagescountinthewebpage -->
+      <class name="tests.CountIframeinthePage">
+        <test-method status="SKIP" signature="countIframe()[pri:0, instance:tests.CountIframeinthePage@45dd4eda]" name="countIframe" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countIframe -->
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.CountIframeinthePage@45dd4eda]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.CountIframeinthePage@45dd4eda]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+      </class> <!-- tests.CountIframeinthePage -->
+      <class name="tests.VerifyUserLandedontheRightPage">
+        <test-method status="SKIP" signature="userLandedontherightpage()[pri:0, instance:tests.VerifyUserLandedontheRightPage@3e3047e6]" name="userLandedontherightpage" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLandedontherightpage -->
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.VerifyUserLandedontheRightPage@3e3047e6]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.VerifyUserLandedontheRightPage@3e3047e6]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+      </class> <!-- tests.VerifyUserLandedontheRightPage -->
+      <class name="tests.SigninwithValidCredentials">
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.SigninwithValidCredentials@2b6856dd]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method status="SKIP" signature="signInAccount()[pri:0, instance:tests.SigninwithValidCredentials@2b6856dd]" name="signInAccount" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInAccount -->
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.SigninwithValidCredentials@2b6856dd]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+      </class> <!-- tests.SigninwithValidCredentials -->
+      <class name="tests.CreateAnAccountWithExpedia">
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.CreateAnAccountWithExpedia@6107227e]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="SKIP" signature="accountHeader()[pri:0, instance:tests.CreateAnAccountWithExpedia@6107227e]" name="accountHeader" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountHeader -->
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.CreateAnAccountWithExpedia@6107227e]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- tests.CreateAnAccountWithExpedia -->
+      <class name="tests.VerifyUserUsedRightUrl">
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.VerifyUserUsedRightUrl@6156496]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method status="SKIP" signature="usingrighturl()[pri:0, instance:tests.VerifyUserUsedRightUrl@6156496]" name="usingrighturl" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usingrighturl -->
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.VerifyUserUsedRightUrl@6156496]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+      </class> <!-- tests.VerifyUserUsedRightUrl -->
+      <class name="tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage">
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@2aa5fe93]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="SKIP" signature="expediaLogo()[pri:1, instance:tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@2aa5fe93]" name="expediaLogo" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expediaLogo -->
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@2aa5fe93]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method status="SKIP" signature="scanQRCode()[pri:2, instance:tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@2aa5fe93]" name="scanQRCode" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scanQRCode -->
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@2aa5fe93]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@2aa5fe93]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+      </class> <!-- tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage -->
       <class name="tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp">
-        <test-method status="PASS" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp@46d56d67]" name="beforeTestStart" is-config="true" duration-ms="9948" started-at="2019-06-26T22:59:16Z" finished-at="2019-06-26T22:59:26Z">
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp@5db45159]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp@5db45159]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="SKIP" signature="textMessageReceive()[pri:0, instance:tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp@5db45159]" name="textMessageReceive" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textMessageReceive -->
+      </class> <!-- tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp -->
+      <class name="tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport">
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport@37e547da]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport@37e547da]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method status="SKIP" signature="assertpractice()[pri:0, instance:tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport@37e547da]" name="assertpractice" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertpractice -->
+      </class> <!-- tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport -->
+      <class name="tests.VerifyHeaderTabsTakeUsertotheRightPage">
+        <test-method status="FAIL" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.VerifyHeaderTabsTakeUsertotheRightPage@3b2cf7ab]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:16Z" finished-at="2019-06-29T01:16:16Z">
           <params>
             <param index="0">
               <value>
@@ -15,18 +251,429 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'
+System info: host: 'DESKTOP-5TRQ2HB', ip: '192.168.1.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\mdjal\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65120}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 1658e4c3dfe6862f04ed7b74282d3e0c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'
+System info: host: 'DESKTOP-5TRQ2HB', ip: '192.168.1.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\mdjal\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65120}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 1658e4c3dfe6862f04ed7b74282d3e0c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:892)
+	at base.Config.beforeTestStart(Config.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestStart -->
-        <test-method status="PASS" signature="textMessageReceive()[pri:0, instance:tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp@46d56d67]" name="textMessageReceive" duration-ms="1865" started-at="2019-06-26T22:59:26Z" finished-at="2019-06-26T22:59:28Z">
+        <test-method status="SKIP" signature="headerTabsClickability()[pri:0, instance:tests.VerifyHeaderTabsTakeUsertotheRightPage@3b2cf7ab]" name="headerTabsClickability" duration-ms="1" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerTabsClickability -->
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.VerifyHeaderTabsTakeUsertotheRightPage@3b2cf7ab]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- tests.VerifyHeaderTabsTakeUsertotheRightPage -->
+      <class name="tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage">
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage@b62fe6d]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="SKIP" signature="expediaMainPageScrollBar()[pri:0, instance:tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage@b62fe6d]" name="expediaMainPageScrollBar" duration-ms="1" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expediaMainPageScrollBar -->
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage@b62fe6d]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage -->
+    </test> <!-- Test in Chrome -->
+    <test name="Test in Firefox" duration-ms="4570" started-at="2019-06-29T05:16:20Z" finished-at="2019-06-29T05:16:25Z">
+      <class name="tests.BookingaDesiredCar_Major_Functionality">
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.BookingaDesiredCar_Major_Functionality@16e7dcfd]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.BookingaDesiredCar_Major_Functionality@16e7dcfd]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method status="SKIP" signature="carReservation()[pri:0, instance:tests.BookingaDesiredCar_Major_Functionality@16e7dcfd]" name="carReservation" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carReservation -->
+      </class> <!-- tests.BookingaDesiredCar_Major_Functionality -->
+      <class name="tests.SubHeaderFlights">
+        <test-method status="SKIP" signature="flights()[pri:0, instance:tests.SubHeaderFlights@7219ec67]" name="flights" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flights -->
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.SubHeaderFlights@7219ec67]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.SubHeaderFlights@7219ec67]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+      </class> <!-- tests.SubHeaderFlights -->
+      <class name="tests.ReadFromXl">
+        <test-method status="SKIP" signature="testReadFromXl()[pri:0, instance:tests.ReadFromXl@7b227d8d]" name="testReadFromXl" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadFromXl -->
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.ReadFromXl@7b227d8d]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.ReadFromXl@7b227d8d]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- tests.ReadFromXl -->
+      <class name="tests.writeinXl">
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.writeinXl@60dcc9fe]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method status="SKIP" signature="testWriteinxl()[pri:0, instance:tests.writeinXl@60dcc9fe]" name="testWriteinxl" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWriteinxl -->
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.writeinXl@60dcc9fe]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+      </class> <!-- tests.writeinXl -->
+      <class name="tests.VerifySubHeaderTabsTakeUsertotheRightPage">
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.VerifySubHeaderTabsTakeUsertotheRightPage@3b07a0d6]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.VerifySubHeaderTabsTakeUsertotheRightPage@3b07a0d6]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method status="SKIP" signature="subHeaderTabs()[pri:0, instance:tests.VerifySubHeaderTabsTakeUsertotheRightPage@3b07a0d6]" name="subHeaderTabs" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subHeaderTabs -->
+      </class> <!-- tests.VerifySubHeaderTabsTakeUsertotheRightPage -->
+      <class name="tests.SearchThingstoDobyDestination">
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.SearchThingstoDobyDestination@3c72f59f]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method status="SKIP" signature="thingstoDo()[pri:0, instance:tests.SearchThingstoDobyDestination@3c72f59f]" name="thingstoDo" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thingstoDo -->
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.SearchThingstoDobyDestination@3c72f59f]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+      </class> <!-- tests.SearchThingstoDobyDestination -->
+      <class name="tests.TotalLinksCount">
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.TotalLinksCount@45018215]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="SKIP" signature="pageLinksCount()[pri:0, instance:tests.TotalLinksCount@45018215]" name="pageLinksCount" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageLinksCount -->
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.TotalLinksCount@45018215]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- tests.TotalLinksCount -->
+      <class name="tests.Totalimagescountinthewebpage">
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.Totalimagescountinthewebpage@65d6b83b]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.Totalimagescountinthewebpage@65d6b83b]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="SKIP" signature="totalImageCount()[pri:0, instance:tests.Totalimagescountinthewebpage@65d6b83b]" name="totalImageCount" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalImageCount -->
+      </class> <!-- tests.Totalimagescountinthewebpage -->
+      <class name="tests.CountIframeinthePage">
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.CountIframeinthePage@d706f19]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method status="SKIP" signature="countIframe()[pri:0, instance:tests.CountIframeinthePage@d706f19]" name="countIframe" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countIframe -->
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.CountIframeinthePage@d706f19]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+      </class> <!-- tests.CountIframeinthePage -->
+      <class name="tests.VerifyUserLandedontheRightPage">
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.VerifyUserLandedontheRightPage@11a9e7c8]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.VerifyUserLandedontheRightPage@11a9e7c8]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method status="SKIP" signature="userLandedontherightpage()[pri:0, instance:tests.VerifyUserLandedontheRightPage@11a9e7c8]" name="userLandedontherightpage" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLandedontherightpage -->
+      </class> <!-- tests.VerifyUserLandedontheRightPage -->
+      <class name="tests.SigninwithValidCredentials">
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.SigninwithValidCredentials@14d3bc22]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.SigninwithValidCredentials@14d3bc22]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="SKIP" signature="signInAccount()[pri:0, instance:tests.SigninwithValidCredentials@14d3bc22]" name="signInAccount" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInAccount -->
+      </class> <!-- tests.SigninwithValidCredentials -->
+      <class name="tests.CreateAnAccountWithExpedia">
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.CreateAnAccountWithExpedia@4c1d9d4b]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.CreateAnAccountWithExpedia@4c1d9d4b]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method status="SKIP" signature="accountHeader()[pri:0, instance:tests.CreateAnAccountWithExpedia@4c1d9d4b]" name="accountHeader" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountHeader -->
+      </class> <!-- tests.CreateAnAccountWithExpedia -->
+      <class name="tests.VerifyUserUsedRightUrl">
+        <test-method status="SKIP" signature="usingrighturl()[pri:0, instance:tests.VerifyUserUsedRightUrl@222114ba]" name="usingrighturl" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usingrighturl -->
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.VerifyUserUsedRightUrl@222114ba]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.VerifyUserUsedRightUrl@222114ba]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+      </class> <!-- tests.VerifyUserUsedRightUrl -->
+      <class name="tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage">
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@ec756bd]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="SKIP" signature="expediaLogo()[pri:1, instance:tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@ec756bd]" name="expediaLogo" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expediaLogo -->
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@ec756bd]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method status="SKIP" signature="scanQRCode()[pri:2, instance:tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@ec756bd]" name="scanQRCode" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scanQRCode -->
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@ec756bd]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@ec756bd]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage -->
+      <class name="tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp">
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp@12d4bf7e]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="SKIP" signature="textMessageReceive()[pri:0, instance:tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp@12d4bf7e]" name="textMessageReceive" duration-ms="1" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- textMessageReceive -->
-        <test-method status="PASS" signature="closeWindow()[pri:0, instance:tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp@46d56d67]" name="closeWindow" is-config="true" duration-ms="201" started-at="2019-06-26T22:59:28Z" finished-at="2019-06-26T22:59:28Z">
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp@12d4bf7e]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeWindow -->
       </class> <!-- tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp -->
-    </test> <!-- Test in Chrome -->
-  </suite> <!-- Individual Test run -->
+      <class name="tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport">
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport@3901d134]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport@3901d134]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="SKIP" signature="assertpractice()[pri:0, instance:tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport@3901d134]" name="assertpractice" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertpractice -->
+      </class> <!-- tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport -->
+      <class name="tests.VerifyHeaderTabsTakeUsertotheRightPage">
+        <test-method status="FAIL" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.VerifyHeaderTabsTakeUsertotheRightPage@358ee631]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:20Z" finished-at="2019-06-29T01:16:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[Browsing context has been discarded
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'
+System info: host: 'DESKTOP-5TRQ2HB', ip: '192.168.1.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 28144, moz:profile: C:\Users\mdjal\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: aaeeb038-041e-4146-8f49-60bc3b53ed37]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'
+System info: host: 'DESKTOP-5TRQ2HB', ip: '192.168.1.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 28144, moz:profile: C:\Users\mdjal\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: aaeeb038-041e-4146-8f49-60bc3b53ed37
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:892)
+	at base.Config.beforeTestStart(Config.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="SKIP" signature="headerTabsClickability()[pri:0, instance:tests.VerifyHeaderTabsTakeUsertotheRightPage@358ee631]" name="headerTabsClickability" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerTabsClickability -->
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.VerifyHeaderTabsTakeUsertotheRightPage@358ee631]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- tests.VerifyHeaderTabsTakeUsertotheRightPage -->
+      <class name="tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage">
+        <test-method status="SKIP" signature="beforeTestStart(java.lang.String)[pri:0, instance:tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage@3d121db3]" name="beforeTestStart" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="SKIP" signature="closeWindow()[pri:0, instance:tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage@3d121db3]" name="closeWindow" is-config="true" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method status="SKIP" signature="expediaMainPageScrollBar()[pri:0, instance:tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage@3d121db3]" name="expediaMainPageScrollBar" duration-ms="0" started-at="2019-06-29T01:16:25Z" finished-at="2019-06-29T01:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expediaMainPageScrollBar -->
+      </class> <!-- tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage -->
+    </test> <!-- Test in Firefox -->
+  </suite> <!-- crossbrowserTest -->
 </testng-results>

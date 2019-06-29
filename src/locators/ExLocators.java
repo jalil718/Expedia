@@ -154,7 +154,8 @@ public class ExLocators {
 	public String vRGuest= "VR-NumAdult";
 	public String vRSearhButton= "VR-searchButtonExt1";
 	
-
+// Try catch
+   public String alrightreserve= "//*[@id='site-footer-wrap']/div[6]";
 
 	
 	

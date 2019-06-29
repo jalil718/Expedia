@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/19</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jun 21 16:46:24 EDT 2019</td>
+<td>Started on:</td><td>Sat Jun 29 01:16:20 EDT 2019</td>
 </tr>
-<tr><td>Total time:</td><td>12 seconds (12780 ms)</td>
+<tr><td>Total time:</td><td>4 seconds (4570 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,46 +75,36 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.VerifyHeaderTabsTakeUsertotheRightPage.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.VerifyHeaderTabsTakeUsertotheRightPage<br>Parameters: ch</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=74.0.3729.169)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+<td title='tests.VerifyHeaderTabsTakeUsertotheRightPage.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.VerifyHeaderTabsTakeUsertotheRightPage<br>Parameters: ff</td>
+<td><div><pre>org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:14.666Z&apos;
 System info: host: &apos;DESKTOP-5TRQ2HB&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\mdjal\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52140}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
-Session ID: 2c9cda0a93f1d7e670d618b3d0776897
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 28144, moz:profile: C:\Users\mdjal\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: aaeeb038-041e-4146-8f49-60bc3b53ed37
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
 	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:892)
 	at base.Config.beforeTestStart(Config.java:39)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1289869008", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1289869008'><pre>org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=74.0.3729.169)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1290272762", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1290272762'><pre>org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:14.666Z&apos;
 System info: host: &apos;DESKTOP-5TRQ2HB&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\mdjal\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52140}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
-Session ID: 2c9cda0a93f1d7e670d618b3d0776897
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 28144, moz:profile: C:\Users\mdjal\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: aaeeb038-041e-4146-8f49-60bc3b53ed37
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
@@ -148,7 +138,7 @@ Session ID: 2c9cda0a93f1d7e670d618b3d0776897
 	at org.testng.TestNG.main(TestNG.java:1324)
 </pre></div></td>
 <td>0</td>
-<td>tests.VerifyHeaderTabsTakeUsertotheRightPage@657c8ad9</td></tr>
+<td>tests.VerifyHeaderTabsTakeUsertotheRightPage@358ee631</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
@@ -161,187 +151,187 @@ Session ID: 2c9cda0a93f1d7e670d618b3d0776897
 <td title='tests.BookingaDesiredCar_Major_Functionality.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.BookingaDesiredCar_Major_Functionality</td>
 <td></td>
 <td>0</td>
-<td>tests.BookingaDesiredCar_Major_Functionality@2aa5fe93</td></tr>
+<td>tests.BookingaDesiredCar_Major_Functionality@16e7dcfd</td></tr>
 <tr>
 <td title='tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage</td>
 <td></td>
 <td>0</td>
-<td>tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@436a4e4b</td></tr>
+<td>tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@ec756bd</td></tr>
 <tr>
 <td title='tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage</td>
 <td></td>
 <td>0</td>
-<td>tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@436a4e4b</td></tr>
+<td>tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@ec756bd</td></tr>
 <tr>
 <td title='tests.SearchThingstoDobyDestination.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.SearchThingstoDobyDestination</td>
 <td></td>
 <td>0</td>
-<td>tests.SearchThingstoDobyDestination@f2f2cc1</td></tr>
+<td>tests.SearchThingstoDobyDestination@3c72f59f</td></tr>
 <tr>
 <td title='tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage</td>
 <td></td>
 <td>0</td>
-<td>tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage@5c1a8622</td></tr>
+<td>tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage@3d121db3</td></tr>
 <tr>
 <td title='tests.writeinXl.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.writeinXl</td>
 <td></td>
 <td>0</td>
-<td>tests.writeinXl@3a079870</td></tr>
+<td>tests.writeinXl@60dcc9fe</td></tr>
 <tr>
 <td title='tests.VerifySubHeaderTabsTakeUsertotheRightPage.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.VerifySubHeaderTabsTakeUsertotheRightPage</td>
 <td></td>
 <td>0</td>
-<td>tests.VerifySubHeaderTabsTakeUsertotheRightPage@5ad851c9</td></tr>
+<td>tests.VerifySubHeaderTabsTakeUsertotheRightPage@3b07a0d6</td></tr>
 <tr>
 <td title='tests.VerifyUserUsedRightUrl.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.VerifyUserUsedRightUrl</td>
 <td></td>
 <td>0</td>
-<td>tests.VerifyUserUsedRightUrl@3b2cf7ab</td></tr>
+<td>tests.VerifyUserUsedRightUrl@222114ba</td></tr>
 <tr>
 <td title='tests.VerifyUserLandedontheRightPage.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.VerifyUserLandedontheRightPage</td>
 <td></td>
 <td>0</td>
-<td>tests.VerifyUserLandedontheRightPage@6156496</td></tr>
+<td>tests.VerifyUserLandedontheRightPage@11a9e7c8</td></tr>
 <tr>
 <td title='tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport</td>
 <td></td>
 <td>0</td>
-<td>tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport@3c153a1</td></tr>
+<td>tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport@3901d134</td></tr>
 <tr>
 <td title='tests.SigninwithValidCredentials.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.SigninwithValidCredentials</td>
 <td></td>
 <td>0</td>
-<td>tests.SigninwithValidCredentials@b62fe6d</td></tr>
+<td>tests.SigninwithValidCredentials@14d3bc22</td></tr>
 <tr>
 <td title='tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp</td>
 <td></td>
 <td>0</td>
-<td>tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp@13acb0d1</td></tr>
+<td>tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp@12d4bf7e</td></tr>
 <tr>
 <td title='tests.CreateAnAccountWithExpedia.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.CreateAnAccountWithExpedia</td>
 <td></td>
 <td>0</td>
-<td>tests.CreateAnAccountWithExpedia@3e3047e6</td></tr>
+<td>tests.CreateAnAccountWithExpedia@4c1d9d4b</td></tr>
 <tr>
 <td title='tests.ReadFromXl.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.ReadFromXl</td>
 <td></td>
 <td>0</td>
-<td>tests.ReadFromXl@37e547da</td></tr>
+<td>tests.ReadFromXl@7b227d8d</td></tr>
 <tr>
 <td title='tests.SubHeaderFlights.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.SubHeaderFlights</td>
 <td></td>
 <td>0</td>
-<td>tests.SubHeaderFlights@2b6856dd</td></tr>
+<td>tests.SubHeaderFlights@7219ec67</td></tr>
 <tr>
 <td title='tests.TotalLinksCount.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.TotalLinksCount</td>
 <td></td>
 <td>0</td>
-<td>tests.TotalLinksCount@5db45159</td></tr>
+<td>tests.TotalLinksCount@45018215</td></tr>
 <tr>
 <td title='tests.Totalimagescountinthewebpage.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.Totalimagescountinthewebpage</td>
 <td></td>
 <td>0</td>
-<td>tests.Totalimagescountinthewebpage@6107227e</td></tr>
+<td>tests.Totalimagescountinthewebpage@65d6b83b</td></tr>
 <tr>
 <td title='tests.CountIframeinthePage.beforeTestStart()'><b>beforeTestStart</b><br>Test class: tests.CountIframeinthePage</td>
 <td></td>
 <td>0</td>
-<td>tests.CountIframeinthePage@7c417213</td></tr>
+<td>tests.CountIframeinthePage@d706f19</td></tr>
 <tr>
 <td title='tests.VerifyHeaderTabsTakeUsertotheRightPage.closeWindow()'><b>closeWindow</b><br>Test class: tests.VerifyHeaderTabsTakeUsertotheRightPage</td>
 <td></td>
 <td>0</td>
-<td>tests.VerifyHeaderTabsTakeUsertotheRightPage@657c8ad9</td></tr>
+<td>tests.VerifyHeaderTabsTakeUsertotheRightPage@358ee631</td></tr>
 <tr>
 <td title='tests.BookingaDesiredCar_Major_Functionality.closeWindow()'><b>closeWindow</b><br>Test class: tests.BookingaDesiredCar_Major_Functionality</td>
 <td></td>
 <td>0</td>
-<td>tests.BookingaDesiredCar_Major_Functionality@2aa5fe93</td></tr>
+<td>tests.BookingaDesiredCar_Major_Functionality@16e7dcfd</td></tr>
 <tr>
 <td title='tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage.closeWindow()'><b>closeWindow</b><br>Test class: tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage</td>
 <td></td>
 <td>0</td>
-<td>tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@436a4e4b</td></tr>
+<td>tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@ec756bd</td></tr>
 <tr>
 <td title='tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage.closeWindow()'><b>closeWindow</b><br>Test class: tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage</td>
 <td></td>
 <td>0</td>
-<td>tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@436a4e4b</td></tr>
+<td>tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@ec756bd</td></tr>
 <tr>
 <td title='tests.SearchThingstoDobyDestination.closeWindow()'><b>closeWindow</b><br>Test class: tests.SearchThingstoDobyDestination</td>
 <td></td>
 <td>0</td>
-<td>tests.SearchThingstoDobyDestination@f2f2cc1</td></tr>
+<td>tests.SearchThingstoDobyDestination@3c72f59f</td></tr>
 <tr>
 <td title='tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage.closeWindow()'><b>closeWindow</b><br>Test class: tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage</td>
 <td></td>
 <td>0</td>
-<td>tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage@5c1a8622</td></tr>
+<td>tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage@3d121db3</td></tr>
 <tr>
 <td title='tests.writeinXl.closeWindow()'><b>closeWindow</b><br>Test class: tests.writeinXl</td>
 <td></td>
 <td>0</td>
-<td>tests.writeinXl@3a079870</td></tr>
+<td>tests.writeinXl@60dcc9fe</td></tr>
 <tr>
 <td title='tests.VerifySubHeaderTabsTakeUsertotheRightPage.closeWindow()'><b>closeWindow</b><br>Test class: tests.VerifySubHeaderTabsTakeUsertotheRightPage</td>
 <td></td>
 <td>0</td>
-<td>tests.VerifySubHeaderTabsTakeUsertotheRightPage@5ad851c9</td></tr>
+<td>tests.VerifySubHeaderTabsTakeUsertotheRightPage@3b07a0d6</td></tr>
 <tr>
 <td title='tests.VerifyUserUsedRightUrl.closeWindow()'><b>closeWindow</b><br>Test class: tests.VerifyUserUsedRightUrl</td>
 <td></td>
 <td>0</td>
-<td>tests.VerifyUserUsedRightUrl@3b2cf7ab</td></tr>
+<td>tests.VerifyUserUsedRightUrl@222114ba</td></tr>
 <tr>
 <td title='tests.VerifyUserLandedontheRightPage.closeWindow()'><b>closeWindow</b><br>Test class: tests.VerifyUserLandedontheRightPage</td>
 <td></td>
 <td>0</td>
-<td>tests.VerifyUserLandedontheRightPage@6156496</td></tr>
+<td>tests.VerifyUserLandedontheRightPage@11a9e7c8</td></tr>
 <tr>
 <td title='tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport.closeWindow()'><b>closeWindow</b><br>Test class: tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport</td>
 <td></td>
 <td>0</td>
-<td>tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport@3c153a1</td></tr>
+<td>tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport@3901d134</td></tr>
 <tr>
 <td title='tests.SigninwithValidCredentials.closeWindow()'><b>closeWindow</b><br>Test class: tests.SigninwithValidCredentials</td>
 <td></td>
 <td>0</td>
-<td>tests.SigninwithValidCredentials@b62fe6d</td></tr>
+<td>tests.SigninwithValidCredentials@14d3bc22</td></tr>
 <tr>
 <td title='tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp.closeWindow()'><b>closeWindow</b><br>Test class: tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp</td>
 <td></td>
 <td>0</td>
-<td>tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp@13acb0d1</td></tr>
+<td>tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp@12d4bf7e</td></tr>
 <tr>
 <td title='tests.CreateAnAccountWithExpedia.closeWindow()'><b>closeWindow</b><br>Test class: tests.CreateAnAccountWithExpedia</td>
 <td></td>
 <td>0</td>
-<td>tests.CreateAnAccountWithExpedia@3e3047e6</td></tr>
+<td>tests.CreateAnAccountWithExpedia@4c1d9d4b</td></tr>
 <tr>
 <td title='tests.ReadFromXl.closeWindow()'><b>closeWindow</b><br>Test class: tests.ReadFromXl</td>
 <td></td>
 <td>0</td>
-<td>tests.ReadFromXl@37e547da</td></tr>
+<td>tests.ReadFromXl@7b227d8d</td></tr>
 <tr>
 <td title='tests.SubHeaderFlights.closeWindow()'><b>closeWindow</b><br>Test class: tests.SubHeaderFlights</td>
 <td></td>
 <td>0</td>
-<td>tests.SubHeaderFlights@2b6856dd</td></tr>
+<td>tests.SubHeaderFlights@7219ec67</td></tr>
 <tr>
 <td title='tests.TotalLinksCount.closeWindow()'><b>closeWindow</b><br>Test class: tests.TotalLinksCount</td>
 <td></td>
 <td>0</td>
-<td>tests.TotalLinksCount@5db45159</td></tr>
+<td>tests.TotalLinksCount@45018215</td></tr>
 <tr>
 <td title='tests.Totalimagescountinthewebpage.closeWindow()'><b>closeWindow</b><br>Test class: tests.Totalimagescountinthewebpage</td>
 <td></td>
 <td>0</td>
-<td>tests.Totalimagescountinthewebpage@6107227e</td></tr>
+<td>tests.Totalimagescountinthewebpage@65d6b83b</td></tr>
 <tr>
 <td title='tests.CountIframeinthePage.closeWindow()'><b>closeWindow</b><br>Test class: tests.CountIframeinthePage</td>
 <td></td>
 <td>0</td>
-<td>tests.CountIframeinthePage@7c417213</td></tr>
+<td>tests.CountIframeinthePage@d706f19</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -354,97 +344,97 @@ Session ID: 2c9cda0a93f1d7e670d618b3d0776897
 <td title='tests.CreateAnAccountWithExpedia.accountHeader()'><b>accountHeader</b><br>Test class: tests.CreateAnAccountWithExpedia</td>
 <td></td>
 <td>0</td>
-<td>tests.CreateAnAccountWithExpedia@3e3047e6</td></tr>
+<td>tests.CreateAnAccountWithExpedia@4c1d9d4b</td></tr>
+<tr>
+<td title='tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport.assertpractice()'><b>assertpractice</b><br>Test class: tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport</td>
+<td></td>
+<td>0</td>
+<td>tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport@3901d134</td></tr>
 <tr>
 <td title='tests.BookingaDesiredCar_Major_Functionality.carReservation()'><b>carReservation</b><br>Test class: tests.BookingaDesiredCar_Major_Functionality</td>
 <td></td>
 <td>0</td>
-<td>tests.BookingaDesiredCar_Major_Functionality@2aa5fe93</td></tr>
+<td>tests.BookingaDesiredCar_Major_Functionality@16e7dcfd</td></tr>
 <tr>
 <td title='tests.CountIframeinthePage.countIframe()'><b>countIframe</b><br>Test class: tests.CountIframeinthePage</td>
 <td></td>
 <td>0</td>
-<td>tests.CountIframeinthePage@7c417213</td></tr>
+<td>tests.CountIframeinthePage@d706f19</td></tr>
 <tr>
 <td title='tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage.expediaLogo()'><b>expediaLogo</b><br>Test class: tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage</td>
 <td></td>
 <td>0</td>
-<td>tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@436a4e4b</td></tr>
+<td>tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@ec756bd</td></tr>
 <tr>
 <td title='tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage.expediaMainPageScrollBar()'><b>expediaMainPageScrollBar</b><br>Test class: tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage</td>
 <td></td>
 <td>0</td>
-<td>tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage@5c1a8622</td></tr>
+<td>tests.VerifyHomePageScrollBarMovesAlltheWayBottomofthePage@3d121db3</td></tr>
 <tr>
 <td title='tests.SubHeaderFlights.flights()'><b>flights</b><br>Test class: tests.SubHeaderFlights</td>
 <td></td>
 <td>0</td>
-<td>tests.SubHeaderFlights@2b6856dd</td></tr>
+<td>tests.SubHeaderFlights@7219ec67</td></tr>
 <tr>
 <td title='tests.VerifyHeaderTabsTakeUsertotheRightPage.headerTabsClickability()'><b>headerTabsClickability</b><br>Test class: tests.VerifyHeaderTabsTakeUsertotheRightPage</td>
 <td></td>
 <td>0</td>
-<td>tests.VerifyHeaderTabsTakeUsertotheRightPage@657c8ad9</td></tr>
+<td>tests.VerifyHeaderTabsTakeUsertotheRightPage@358ee631</td></tr>
 <tr>
 <td title='tests.TotalLinksCount.pageLinksCount()'><b>pageLinksCount</b><br>Test class: tests.TotalLinksCount</td>
 <td></td>
 <td>0</td>
-<td>tests.TotalLinksCount@5db45159</td></tr>
+<td>tests.TotalLinksCount@45018215</td></tr>
 <tr>
 <td title='tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage.scanQRCode()'><b>scanQRCode</b><br>Test class: tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage</td>
 <td></td>
 <td>0</td>
-<td>tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@436a4e4b</td></tr>
+<td>tests.VerifyExpediaLogoandQRCodeDisplayedonTheHomePage@ec756bd</td></tr>
 <tr>
 <td title='tests.SigninwithValidCredentials.signInAccount()'><b>signInAccount</b><br>Test class: tests.SigninwithValidCredentials</td>
 <td></td>
 <td>0</td>
-<td>tests.SigninwithValidCredentials@b62fe6d</td></tr>
+<td>tests.SigninwithValidCredentials@14d3bc22</td></tr>
 <tr>
 <td title='tests.VerifySubHeaderTabsTakeUsertotheRightPage.subHeaderTabs()'><b>subHeaderTabs</b><br>Test class: tests.VerifySubHeaderTabsTakeUsertotheRightPage</td>
 <td></td>
 <td>0</td>
-<td>tests.VerifySubHeaderTabsTakeUsertotheRightPage@5ad851c9</td></tr>
+<td>tests.VerifySubHeaderTabsTakeUsertotheRightPage@3b07a0d6</td></tr>
 <tr>
 <td title='tests.ReadFromXl.testReadFromXl()'><b>testReadFromXl</b><br>Test class: tests.ReadFromXl</td>
 <td></td>
 <td>0</td>
-<td>tests.ReadFromXl@37e547da</td></tr>
+<td>tests.ReadFromXl@7b227d8d</td></tr>
 <tr>
 <td title='tests.writeinXl.testWriteinxl()'><b>testWriteinxl</b><br>Test class: tests.writeinXl</td>
 <td></td>
 <td>0</td>
-<td>tests.writeinXl@3a079870</td></tr>
+<td>tests.writeinXl@60dcc9fe</td></tr>
 <tr>
 <td title='tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp.textMessageReceive()'><b>textMessageReceive</b><br>Test class: tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp</td>
 <td></td>
 <td>0</td>
-<td>tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp@13acb0d1</td></tr>
+<td>tests.ConfirmUserReceivedLinktexttoDownloadExpediaApp@12d4bf7e</td></tr>
 <tr>
 <td title='tests.SearchThingstoDobyDestination.thingstoDo()'><b>thingstoDo</b><br>Test class: tests.SearchThingstoDobyDestination</td>
 <td></td>
 <td>0</td>
-<td>tests.SearchThingstoDobyDestination@f2f2cc1</td></tr>
+<td>tests.SearchThingstoDobyDestination@3c72f59f</td></tr>
 <tr>
 <td title='tests.Totalimagescountinthewebpage.totalImageCount()'><b>totalImageCount</b><br>Test class: tests.Totalimagescountinthewebpage</td>
 <td></td>
 <td>0</td>
-<td>tests.Totalimagescountinthewebpage@6107227e</td></tr>
-<tr>
-<td title='tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport.trycathch()'><b>trycathch</b><br>Test class: tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport</td>
-<td></td>
-<td>0</td>
-<td>tests.PracticeAssertisbeingFailedIntentianllytoSeeapictureintheXLSTReport@3c153a1</td></tr>
+<td>tests.Totalimagescountinthewebpage@65d6b83b</td></tr>
 <tr>
 <td title='tests.VerifyUserLandedontheRightPage.userLandedontherightpage()'><b>userLandedontherightpage</b><br>Test class: tests.VerifyUserLandedontheRightPage</td>
 <td></td>
 <td>0</td>
-<td>tests.VerifyUserLandedontheRightPage@6156496</td></tr>
+<td>tests.VerifyUserLandedontheRightPage@11a9e7c8</td></tr>
 <tr>
 <td title='tests.VerifyUserUsedRightUrl.usingrighturl()'><b>usingrighturl</b><br>Test class: tests.VerifyUserUsedRightUrl</td>
 <td></td>
 <td>0</td>
-<td>tests.VerifyUserUsedRightUrl@3b2cf7ab</td></tr>
+<td>tests.VerifyUserUsedRightUrl@222114ba</td></tr>
 </table><p>
 </body>
 </html>
